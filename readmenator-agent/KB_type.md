@@ -1,0 +1,452 @@
+# Subsystem: type
+
+## pyasn1/type/__init__.py
+- Layer: utility
+- Doc: This file is necessary to make this directory a package.
+- Language: py
+- Imported by: `pyasn1/codec/ber/decoder.py`, `pyasn1/codec/ber/encoder.py`, `pyasn1/codec/ber/eoo.py`, `pyasn1/codec/cer/decoder.py`, `pyasn1/codec/cer/encoder.py`, `pyasn1/codec/der/decoder.py`, `pyasn1/codec/der/encoder.py`, `pyasn1/type/base.py`, `pyasn1/type/char.py`, `pyasn1/type/constraint.py`, `pyasn1/type/namedtype.py`, `pyasn1/type/univ.py`, `pyasn1/type/useful.py`
+
+## pyasn1/type/base.py
+- Layer: utility
+- Doc: Base classes for ASN.1 types
+- Language: py
+- Symbols:
+  - `Asn1Item` (class, line 6) `class Asn1Item`
+  - `Asn1ItemBase` (class, line 8) `class Asn1ItemBase(Asn1Item)`
+  - `__NoValue` (class, line 50) `class __NoValue`
+  - `AbstractSimpleAsn1Item` (class, line 59) `class AbstractSimpleAsn1Item(Asn1ItemBase)`
+  - `AbstractConstructedAsn1Item` (class, line 151) `class AbstractConstructedAsn1Item(Asn1ItemBase)`
+  - `__init__` (method, line 18) `def __init__(self, tagSet, subtypeSpec)`
+  - `_verifySubtypeSpec` (method, line 28) `def _verifySubtypeSpec(self, value, idx)`
+  - `getSubtypeSpec` (method, line 35) `def getSubtypeSpec(self)`
+  - `getTagSet` (method, line 37) `def getTagSet(self)`
+  - `getEffectiveTagSet` (method, line 38) `def getEffectiveTagSet(self)`
+  - `getTagMap` (method, line 39) `def getTagMap(self)`
+  - `isSameTypeWith` (method, line 41) `def isSameTypeWith(self, other)`
+  - `isSuperTypeOf` (method, line 45) `def isSuperTypeOf(self, other)`
+  - `__getattr__` (method, line 51) `def __getattr__(self, attr)`
+  - `__getitem__` (method, line 53) `def __getitem__(self, i)`
+  - `__init__` (method, line 61) `def __init__(self, value, tagSet, subtypeSpec)`
+  - `__repr__` (method, line 74) `def __repr__(self)`
+  - `__str__` (method, line 79) `def __str__(self)`
+  - `__eq__` (method, line 80) `def __eq__(self, other)`
+  - `__ne__` (method, line 82) `def __ne__(self, other)`
+  - `__lt__` (method, line 83) `def __lt__(self, other)`
+  - `__le__` (method, line 84) `def __le__(self, other)`
+  - `__gt__` (method, line 85) `def __gt__(self, other)`
+  - `__ge__` (method, line 86) `def __ge__(self, other)`
+  - `__hash__` (method, line 91) `def __hash__(self)`
+  - `clone` (method, line 93) `def clone(self, value, tagSet, subtypeSpec)`
+  - `subtype` (method, line 104) `def subtype(self, value, implicitTag, explicitTag, subtypeSpec)`
+  - `prettyIn` (method, line 120) `def prettyIn(self, value)`
+  - `prettyOut` (method, line 121) `def prettyOut(self, value)`
+  - `prettyPrint` (method, line 123) `def prettyPrint(self, scope)`
+  - `prettyPrinter` (method, line 130) `def prettyPrinter(self, scope)`
+  - `__init__` (method, line 154) `def __init__(self, componentType, tagSet, subtypeSpec, sizeSpec)`
+  - `__repr__` (method, line 168) `def __repr__(self)`
+  - `__eq__` (method, line 178) `def __eq__(self, other)`
+  - `__ne__` (method, line 180) `def __ne__(self, other)`
+  - `__lt__` (method, line 181) `def __lt__(self, other)`
+  - `__le__` (method, line 182) `def __le__(self, other)`
+  - `__gt__` (method, line 183) `def __gt__(self, other)`
+  - `__ge__` (method, line 184) `def __ge__(self, other)`
+  - `getComponentTagMap` (method, line 190) `def getComponentTagMap(self)`
+  - `_cloneComponentValues` (method, line 193) `def _cloneComponentValues(self, myClone, cloneValueFlag)`
+  - `clone` (method, line 195) `def clone(self, tagSet, subtypeSpec, sizeSpec, cloneValueFlag)`
+  - `subtype` (method, line 208) `def subtype(self, implicitTag, explicitTag, subtypeSpec, sizeSpec, cloneValueFlag)`
+  - `_verifyComponent` (method, line 229) `def _verifyComponent(self, idx, value)`
+  - `verifySizeSpec` (method, line 231) `def verifySizeSpec(self)`
+  - `getComponentByPosition` (method, line 233) `def getComponentByPosition(self, idx)`
+  - `setComponentByPosition` (method, line 235) `def setComponentByPosition(self, idx, value, verifyConstraints)`
+  - `getComponentType` (method, line 238) `def getComponentType(self)`
+  - `__getitem__` (method, line 240) `def __getitem__(self, idx)`
+  - `__setitem__` (method, line 241) `def __setitem__(self, idx, value)`
+  - `__len__` (method, line 243) `def __len__(self)`
+  - `clear` (method, line 245) `def clear(self)`
+  - `setDefaultComponents` (method, line 249) `def setDefaultComponents(self)`
+  - `__nonzero__` (method, line 88) `def __nonzero__(self)`
+  - `__bool__` (method, line 90) `def __bool__(self)`
+  - `__nonzero__` (method, line 186) `def __nonzero__(self)`
+  - `__bool__` (method, line 188) `def __bool__(self)`
+- Depends on: `pyasn1/type/__init__.py`
+
+## pyasn1/type/char.py
+- Layer: utility
+- Doc: ASN.1 "character string" types
+- Language: py
+- Symbols:
+  - `UTF8String` (class, line 4) `class UTF8String(OctetString)`
+  - `NumericString` (class, line 10) `class NumericString(OctetString)`
+  - `PrintableString` (class, line 15) `class PrintableString(OctetString)`
+  - `TeletexString` (class, line 20) `class TeletexString(OctetString)`
+  - `VideotexString` (class, line 26) `class VideotexString(OctetString)`
+  - `IA5String` (class, line 31) `class IA5String(OctetString)`
+  - `GraphicString` (class, line 36) `class GraphicString(OctetString)`
+  - `VisibleString` (class, line 41) `class VisibleString(OctetString)`
+  - `GeneralString` (class, line 46) `class GeneralString(OctetString)`
+  - `UniversalString` (class, line 51) `class UniversalString(OctetString)`
+  - `BMPString` (class, line 57) `class BMPString(OctetString)`
+- Depends on: `pyasn1/type/__init__.py`
+- Imported by: `ADPwdSpray.py`
+
+## pyasn1/type/constraint.py
+- Layer: utility
+- Doc: ASN.1 subtype constraints classes.  Constraints are relatively rare, but every ASN1 object is doing checks all the time 
+- Language: py
+- Symbols:
+  - `AbstractConstraint` (class, line 17) `class AbstractConstraint`
+  - `SingleValueConstraint` (class, line 69) `class SingleValueConstraint(AbstractConstraint)`
+  - `ContainedSubtypeConstraint` (class, line 76) `class ContainedSubtypeConstraint(AbstractConstraint)`
+  - `ValueRangeConstraint` (class, line 82) `class ValueRangeConstraint(AbstractConstraint)`
+  - `ValueSizeConstraint` (class, line 103) `class ValueSizeConstraint(ValueRangeConstraint)`
+  - `PermittedAlphabetConstraint` (class, line 110) `class PermittedAlphabetConstraint(SingleValueConstraint)`
+  - `InnerTypeConstraint` (class, line 122) `class InnerTypeConstraint(AbstractConstraint)`
+  - `ConstraintsExclusion` (class, line 147) `class ConstraintsExclusion(AbstractConstraint)`
+  - `AbstractConstraintSet` (class, line 162) `class AbstractConstraintSet(AbstractConstraint)`
+  - `ConstraintsIntersection` (class, line 179) `class ConstraintsIntersection(AbstractConstraintSet)`
+  - `ConstraintsUnion` (class, line 185) `class ConstraintsUnion(AbstractConstraintSet)`
+  - `__init__` (method, line 23) `def __init__(self)`
+  - `__call__` (method, line 27) `def __call__(self, value, idx)`
+  - `__repr__` (method, line 34) `def __repr__(self)`
+  - `__eq__` (method, line 39) `def __eq__(self, other)`
+  - `__ne__` (method, line 41) `def __ne__(self, other)`
+  - `__lt__` (method, line 42) `def __lt__(self, other)`
+  - `__le__` (method, line 43) `def __le__(self, other)`
+  - `__gt__` (method, line 44) `def __gt__(self, other)`
+  - `__ge__` (method, line 45) `def __ge__(self, other)`
+  - `__hash__` (method, line 51) `def __hash__(self)`
+  - `_setValues` (method, line 56) `def _setValues(self, values)`
+  - `_testValue` (method, line 57) `def _testValue(self, value, idx)`
+  - `getValueMap` (method, line 61) `def getValueMap(self)`
+  - `isSuperTypeOf` (method, line 62) `def isSuperTypeOf(self, otherConstraint)`
+  - `isSubTypeOf` (method, line 65) `def isSubTypeOf(self, otherConstraint)`
+  - `_testValue` (method, line 71) `def _testValue(self, value, idx)`
+  - `_testValue` (method, line 78) `def _testValue(self, value, idx)`
+  - `_testValue` (method, line 84) `def _testValue(self, value, idx)`
+  - `_setValues` (method, line 88) `def _setValues(self, values)`
+  - `_testValue` (method, line 105) `def _testValue(self, value, idx)`
+  - `_setValues` (method, line 111) `def _setValues(self, values)`
+  - `_testValue` (method, line 116) `def _testValue(self, value, idx)`
+  - `_testValue` (method, line 124) `def _testValue(self, value, idx)`
+  - `_setValues` (method, line 135) `def _setValues(self, values)`
+  - `_testValue` (method, line 149) `def _testValue(self, value, idx)`
+  - `_setValues` (method, line 157) `def _setValues(self, values)`
+  - `__getitem__` (method, line 164) `def __getitem__(self, idx)`
+  - `__add__` (method, line 166) `def __add__(self, value)`
+  - `__radd__` (method, line 167) `def __radd__(self, value)`
+  - `__len__` (method, line 169) `def __len__(self)`
+  - `_setValues` (method, line 173) `def _setValues(self, values)`
+  - `_testValue` (method, line 181) `def _testValue(self, value, idx)`
+  - `_testValue` (method, line 187) `def _testValue(self, value, idx)`
+  - `__nonzero__` (method, line 47) `def __nonzero__(self)`
+  - `__bool__` (method, line 49) `def __bool__(self)`
+- Depends on: `pyasn1/type/__init__.py`
+
+## pyasn1/type/error.py
+- Layer: utility
+- Language: py
+- Symbols:
+  - `ValueConstraintError` (class, line 3) `class ValueConstraintError(PyAsn1Error)`
+- Depends on: `pyasn1/error.py`
+
+## pyasn1/type/namedtype.py
+- Layer: utility
+- Doc: NamedType specification for constructed types
+- Language: py
+- Symbols:
+  - `NamedType` (class, line 6) `class NamedType`
+  - `OptionalNamedType` (class, line 21) `class OptionalNamedType(NamedType)`
+  - `DefaultedNamedType` (class, line 23) `class DefaultedNamedType(NamedType)`
+  - `NamedTypes` (class, line 26) `class NamedTypes`
+  - `__init__` (method, line 9) `def __init__(self, name, t)`
+  - `__repr__` (method, line 11) `def __repr__(self)`
+  - `getType` (method, line 14) `def getType(self)`
+  - `getName` (method, line 15) `def getName(self)`
+  - `__getitem__` (method, line 16) `def __getitem__(self, idx)`
+  - `__init__` (method, line 27) `def __init__(self)`
+  - `__repr__` (method, line 35) `def __repr__(self)`
+  - `__getitem__` (method, line 41) `def __getitem__(self, idx)`
+  - `__len__` (method, line 47) `def __len__(self)`
+  - `getTypeByPosition` (method, line 49) `def getTypeByPosition(self, idx)`
+  - `getPositionByType` (method, line 55) `def getPositionByType(self, tagSet)`
+  - `getNameByPosition` (method, line 70) `def getNameByPosition(self, idx)`
+  - `getPositionByName` (method, line 75) `def getPositionByName(self, name)`
+  - `__buildAmbigiousTagMap` (method, line 89) `def __buildAmbigiousTagMap(self)`
+  - `getTagMapNearPosition` (method, line 101) `def getTagMapNearPosition(self, idx)`
+  - `getPositionNearType` (method, line 108) `def getPositionNearType(self, tagSet, idx)`
+  - `genMinTagSet` (method, line 115) `def genMinTagSet(self)`
+  - `getTagMap` (method, line 124) `def getTagMap(self, uniq)`
+  - `__nonzero__` (method, line 44) `def __nonzero__(self)`
+  - `__bool__` (method, line 46) `def __bool__(self)`
+- Depends on: `pyasn1/type/__init__.py`
+- Imported by: `ADPwdSpray.py`
+
+## pyasn1/type/namedval.py
+- Layer: utility
+- Doc: ASN.1 named integers
+- Language: py
+- Symbols:
+  - `NamedValues` (class, line 6) `class NamedValues`
+  - `__init__` (method, line 7) `def __init__(self)`
+  - `__str__` (method, line 25) `def __str__(self)`
+  - `getName` (method, line 27) `def getName(self, value)`
+  - `getValue` (method, line 31) `def getValue(self, name)`
+  - `__getitem__` (method, line 35) `def __getitem__(self, i)`
+  - `__len__` (method, line 36) `def __len__(self)`
+  - `__add__` (method, line 38) `def __add__(self, namedValues)`
+  - `__radd__` (method, line 40) `def __radd__(self, namedValues)`
+  - `clone` (method, line 43) `def clone(self)`
+
+## pyasn1/type/tag.py
+- Layer: utility
+- Doc: ASN.1 types tags
+- Language: py
+- Symbols:
+  - `Tag` (class, line 17) `class Tag`
+  - `TagSet` (class, line 55) `class TagSet`
+  - `initTagSet` (method, line 122) `def initTagSet(tag)`
+  - `__init__` (method, line 18) `def __init__(self, tagClass, tagFormat, tagId)`
+  - `__repr__` (method, line 27) `def __repr__(self)`
+  - `__eq__` (method, line 33) `def __eq__(self, other)`
+  - `__ne__` (method, line 34) `def __ne__(self, other)`
+  - `__lt__` (method, line 35) `def __lt__(self, other)`
+  - `__le__` (method, line 36) `def __le__(self, other)`
+  - `__gt__` (method, line 37) `def __gt__(self, other)`
+  - `__ge__` (method, line 38) `def __ge__(self, other)`
+  - `__hash__` (method, line 39) `def __hash__(self)`
+  - `__getitem__` (method, line 40) `def __getitem__(self, idx)`
+  - `__and__` (method, line 41) `def __and__(self, otherTag)`
+  - `__or__` (method, line 46) `def __or__(self, otherTag)`
+  - `asTuple` (method, line 53) `def asTuple(self)`
+  - `__init__` (method, line 56) `def __init__(self, baseTag)`
+  - `__repr__` (method, line 66) `def __repr__(self)`
+  - `__add__` (method, line 72) `def __add__(self, superTag)`
+  - `__radd__` (method, line 76) `def __radd__(self, superTag)`
+  - `tagExplicitly` (method, line 81) `def tagExplicitly(self, superTag)`
+  - `tagImplicitly` (method, line 91) `def tagImplicitly(self, superTag)`
+  - `getBaseTag` (method, line 97) `def getBaseTag(self)`
+  - `__getitem__` (method, line 98) `def __getitem__(self, idx)`
+  - `__eq__` (method, line 104) `def __eq__(self, other)`
+  - `__ne__` (method, line 105) `def __ne__(self, other)`
+  - `__lt__` (method, line 106) `def __lt__(self, other)`
+  - `__le__` (method, line 107) `def __le__(self, other)`
+  - `__gt__` (method, line 108) `def __gt__(self, other)`
+  - `__ge__` (method, line 109) `def __ge__(self, other)`
+  - `__hash__` (method, line 110) `def __hash__(self)`
+  - `__len__` (method, line 111) `def __len__(self)`
+  - `isSuperTagSetOf` (method, line 112) `def isSuperTagSetOf(self, tagSet)`
+- Imported by: `ADPwdSpray.py`
+
+## pyasn1/type/tagmap.py
+- Layer: utility
+- Language: py
+- Symbols:
+  - `TagMap` (class, line 3) `class TagMap`
+  - `__init__` (method, line 4) `def __init__(self, posMap, negMap, defType)`
+  - `__contains__` (method, line 9) `def __contains__(self, tagSet)`
+  - `__getitem__` (method, line 13) `def __getitem__(self, tagSet)`
+  - `__repr__` (method, line 23) `def __repr__(self)`
+  - `clone` (method, line 29) `def clone(self, parentType, tagMap, uniq)`
+  - `getPosMap` (method, line 50) `def getPosMap(self)`
+  - `getNegMap` (method, line 51) `def getNegMap(self)`
+  - `getDef` (method, line 52) `def getDef(self)`
+
+## pyasn1/type/univ.py
+- Layer: utility
+- Doc: ASN.1 "universal" data types
+- Language: py
+- Symbols:
+  - `Integer` (class, line 10) `class Integer(AbstractSimpleAsn1Item)`
+  - `Boolean` (class, line 129) `class Boolean(Integer)`
+  - `BitString` (class, line 136) `class BitString(AbstractSimpleAsn1Item)`
+  - `OctetString` (class, line 263) `class OctetString(AbstractSimpleAsn1Item)`
+  - `Null` (class, line 423) `class Null(OctetString)`
+  - `ObjectIdentifier` (class, line 435) `class ObjectIdentifier(AbstractSimpleAsn1Item)`
+  - `Real` (class, line 506) `class Real(AbstractSimpleAsn1Item)`
+  - `Enumerated` (class, line 626) `class Enumerated(Integer)`
+  - `SetOf` (class, line 633) `class SetOf(AbstractConstructedAsn1Item)`
+  - `SequenceOf` (class, line 701) `class SequenceOf(SetOf)`
+  - `SequenceAndSetBase` (class, line 707) `class SequenceAndSetBase(AbstractConstructedAsn1Item)`
+  - `Sequence` (class, line 837) `class Sequence(SequenceAndSetBase)`
+  - `Set` (class, line 853) `class Set(SequenceAndSetBase)`
+  - `Choice` (class, line 899) `class Choice(Set)`
+  - `Any` (class, line 1030) `class Any(OctetString)`
+  - `__init__` (method, line 15) `def __init__(self, value, tagSet, subtypeSpec, namedValues)`
+  - `__and__` (method, line 25) `def __and__(self, value)`
+  - `__rand__` (method, line 26) `def __rand__(self, value)`
+  - `__or__` (method, line 27) `def __or__(self, value)`
+  - `__ror__` (method, line 28) `def __ror__(self, value)`
+  - `__xor__` (method, line 29) `def __xor__(self, value)`
+  - `__rxor__` (method, line 30) `def __rxor__(self, value)`
+  - `__lshift__` (method, line 31) `def __lshift__(self, value)`
+  - `__rshift__` (method, line 32) `def __rshift__(self, value)`
+  - `__add__` (method, line 34) `def __add__(self, value)`
+  - `__radd__` (method, line 35) `def __radd__(self, value)`
+  - `__sub__` (method, line 36) `def __sub__(self, value)`
+  - `__rsub__` (method, line 37) `def __rsub__(self, value)`
+  - `__mul__` (method, line 38) `def __mul__(self, value)`
+  - `__rmul__` (method, line 39) `def __rmul__(self, value)`
+  - `__mod__` (method, line 40) `def __mod__(self, value)`
+  - `__rmod__` (method, line 41) `def __rmod__(self, value)`
+  - `__pow__` (method, line 42) `def __pow__(self, value, modulo)`
+  - `__rpow__` (method, line 43) `def __rpow__(self, value)`
+  - `__int__` (method, line 56) `def __int__(self)`
+  - `__float__` (method, line 59) `def __float__(self)`
+  - `__abs__` (method, line 60) `def __abs__(self)`
+  - `__index__` (method, line 61) `def __index__(self)`
+  - `__lt__` (method, line 63) `def __lt__(self, value)`
+  - `__le__` (method, line 64) `def __le__(self, value)`
+  - `__eq__` (method, line 65) `def __eq__(self, value)`
+  - `__ne__` (method, line 66) `def __ne__(self, value)`
+  - `__gt__` (method, line 67) `def __gt__(self, value)`
+  - `__ge__` (method, line 68) `def __ge__(self, value)`
+  - `prettyIn` (method, line 70) `def prettyIn(self, value)`
+  - `prettyOut` (method, line 88) `def prettyOut(self, value)`
+  - `getNamedValues` (method, line 92) `def getNamedValues(self)`
+  - `clone` (method, line 94) `def clone(self, value, tagSet, subtypeSpec, namedValues)`
+  - `subtype` (method, line 109) `def subtype(self, value, implicitTag, explicitTag, subtypeSpec, namedValues)`
+  - `__init__` (method, line 141) `def __init__(self, value, tagSet, subtypeSpec, namedValues)`
+  - `clone` (method, line 151) `def clone(self, value, tagSet, subtypeSpec, namedValues)`
+  - `subtype` (method, line 166) `def subtype(self, value, implicitTag, explicitTag, subtypeSpec, namedValues)`
+  - `__str__` (method, line 186) `def __str__(self)`
+  - `__len__` (method, line 190) `def __len__(self)`
+  - `__getitem__` (method, line 194) `def __getitem__(self, i)`
+  - `__add__` (method, line 200) `def __add__(self, value)`
+  - `__radd__` (method, line 201) `def __radd__(self, value)`
+  - `__mul__` (method, line 202) `def __mul__(self, value)`
+  - `__rmul__` (method, line 203) `def __rmul__(self, value)`
+  - `prettyIn` (method, line 205) `def prettyIn(self, value)`
+  - `prettyOut` (method, line 260) `def prettyOut(self, value)`
+  - `__init__` (method, line 269) `def __init__(self, value, tagSet, subtypeSpec, encoding, binValue, hexValue)`
+  - `clone` (method, line 286) `def clone(self, value, tagSet, subtypeSpec, encoding, binValue, hexValue)`
+  - `fromBinaryString` (method, line 338) `def fromBinaryString(self, value)`
+  - `fromHexString` (method, line 358) `def fromHexString(self, value)`
+  - `prettyOut` (method, line 370) `def prettyOut(self, value)`
+  - `__repr__` (method, line 380) `def __repr__(self)`
+  - `__len__` (method, line 408) `def __len__(self)`
+  - `__getitem__` (method, line 412) `def __getitem__(self, i)`
+  - `__add__` (method, line 418) `def __add__(self, value)`
+  - `__radd__` (method, line 419) `def __radd__(self, value)`
+  - `__mul__` (method, line 420) `def __mul__(self, value)`
+  - `__rmul__` (method, line 421) `def __rmul__(self, value)`
+  - `__add__` (method, line 439) `def __add__(self, other)`
+  - `__radd__` (method, line 440) `def __radd__(self, other)`
+  - `asTuple` (method, line 442) `def asTuple(self)`
+  - `__len__` (method, line 446) `def __len__(self)`
+  - `__getitem__` (method, line 450) `def __getitem__(self, i)`
+  - `__str__` (method, line 458) `def __str__(self)`
+  - `index` (method, line 460) `def index(self, suboid)`
+  - `isPrefixOf` (method, line 462) `def isPrefixOf(self, value)`
+  - `prettyIn` (method, line 470) `def prettyIn(self, value)`
+  - `prettyOut` (method, line 504) `def prettyOut(self, value)`
+  - `__normalizeBase10` (method, line 520) `def __normalizeBase10(self, value)`
+  - `prettyIn` (method, line 527) `def prettyIn(self, value)`
+  - `prettyOut` (method, line 563) `def prettyOut(self, value)`
+  - `isPlusInfinity` (method, line 569) `def isPlusInfinity(self)`
+  - `isMinusInfinity` (method, line 570) `def isMinusInfinity(self)`
+  - `isInfinity` (method, line 571) `def isInfinity(self)`
+  - `__str__` (method, line 573) `def __str__(self)`
+  - `__add__` (method, line 575) `def __add__(self, value)`
+  - `__radd__` (method, line 576) `def __radd__(self, value)`
+  - `__mul__` (method, line 577) `def __mul__(self, value)`
+  - `__rmul__` (method, line 578) `def __rmul__(self, value)`
+  - `__sub__` (method, line 579) `def __sub__(self, value)`
+  - `__rsub__` (method, line 580) `def __rsub__(self, value)`
+  - `__mod__` (method, line 581) `def __mod__(self, value)`
+  - `__rmod__` (method, line 582) `def __rmod__(self, value)`
+  - `__pow__` (method, line 583) `def __pow__(self, value, modulo)`
+  - `__rpow__` (method, line 584) `def __rpow__(self, value)`
+  - `__int__` (method, line 595) `def __int__(self)`
+  - `__float__` (method, line 598) `def __float__(self)`
+  - `__abs__` (method, line 605) `def __abs__(self)`
+  - `__lt__` (method, line 607) `def __lt__(self, value)`
+  - `__le__` (method, line 608) `def __le__(self, value)`
+  - `__eq__` (method, line 609) `def __eq__(self, value)`
+  - `__ne__` (method, line 610) `def __ne__(self, value)`
+  - `__gt__` (method, line 611) `def __gt__(self, value)`
+  - `__ge__` (method, line 612) `def __ge__(self, value)`
+  - `__getitem__` (method, line 620) `def __getitem__(self, idx)`
+  - `_cloneComponentValues` (method, line 640) `def _cloneComponentValues(self, myClone, cloneValueFlag)`
+  - `_verifyComponent` (method, line 653) `def _verifyComponent(self, idx, value)`
+  - `getComponentByPosition` (method, line 658) `def getComponentByPosition(self, idx)`
+  - `setComponentByPosition` (method, line 659) `def setComponentByPosition(self, idx, value, verifyConstraints)`
+  - `getComponentTagMap` (method, line 686) `def getComponentTagMap(self)`
+  - `prettyPrint` (method, line 690) `def prettyPrint(self, scope)`
+  - `__init__` (method, line 709) `def __init__(self, componentType, tagSet, subtypeSpec, sizeSpec)`
+  - `__getitem__` (method, line 719) `def __getitem__(self, idx)`
+  - `__setitem__` (method, line 725) `def __setitem__(self, idx, value)`
+  - `_cloneComponentValues` (method, line 731) `def _cloneComponentValues(self, myClone, cloneValueFlag)`
+  - `_verifyComponent` (method, line 744) `def _verifyComponent(self, idx, value)`
+  - `getComponentByName` (method, line 753) `def getComponentByName(self, name)`
+  - `setComponentByName` (method, line 757) `def setComponentByName(self, name, value, verifyConstraints)`
+  - `getComponentByPosition` (method, line 763) `def getComponentByPosition(self, idx)`
+  - `setComponentByPosition` (method, line 770) `def setComponentByPosition(self, idx, value, verifyConstraints)`
+  - `getNameByPosition` (method, line 794) `def getNameByPosition(self, idx)`
+  - `getDefaultComponentByPosition` (method, line 798) `def getDefaultComponentByPosition(self, idx)`
+  - `getComponentType` (method, line 802) `def getComponentType(self)`
+  - `setDefaultComponents` (method, line 806) `def setDefaultComponents(self)`
+  - `prettyPrint` (method, line 821) `def prettyPrint(self, scope)`
+  - `getComponentTagMapNearPosition` (method, line 843) `def getComponentTagMapNearPosition(self, idx)`
+  - `getComponentPositionNearType` (method, line 847) `def getComponentPositionNearType(self, tagSet, idx)`
+  - `getComponent` (method, line 859) `def getComponent(self, innerFlag)`
+  - `getComponentByType` (method, line 861) `def getComponentByType(self, tagSet, innerFlag)`
+  - `setComponentByType` (method, line 872) `def setComponentByType(self, tagSet, value, innerFlag, verifyConstraints)`
+  - `getComponentTagMap` (method, line 891) `def getComponentTagMap(self)`
+  - `getComponentPositionByType` (method, line 895) `def getComponentPositionByType(self, tagSet)`
+  - `__eq__` (method, line 907) `def __eq__(self, other)`
+  - `__ne__` (method, line 911) `def __ne__(self, other)`
+  - `__lt__` (method, line 915) `def __lt__(self, other)`
+  - `__le__` (method, line 919) `def __le__(self, other)`
+  - `__gt__` (method, line 923) `def __gt__(self, other)`
+  - `__ge__` (method, line 927) `def __ge__(self, other)`
+  - `__len__` (method, line 936) `def __len__(self)`
+  - `verifySizeSpec` (method, line 938) `def verifySizeSpec(self)`
+  - `_cloneComponentValues` (method, line 944) `def _cloneComponentValues(self, myClone, cloneValueFlag)`
+  - `setComponentByPosition` (method, line 961) `def setComponentByPosition(self, idx, value, verifyConstraints)`
+  - `getMinTagSet` (method, line 986) `def getMinTagSet(self)`
+  - `getEffectiveTagSet` (method, line 992) `def getEffectiveTagSet(self)`
+  - `getTagMap` (method, line 1002) `def getTagMap(self)`
+  - `getComponent` (method, line 1008) `def getComponent(self, innerFlag)`
+  - `getName` (method, line 1018) `def getName(self, innerFlag)`
+  - `setDefaultComponents` (method, line 1028) `def setDefaultComponents(self)`
+  - `getTagMap` (method, line 1034) `def getTagMap(self)`
+  - `__div__` (method, line 46) `def __div__(self, value)`
+  - `__rdiv__` (method, line 47) `def __rdiv__(self, value)`
+  - `__truediv__` (method, line 49) `def __truediv__(self, value)`
+  - `__rtruediv__` (method, line 50) `def __rtruediv__(self, value)`
+  - `__divmod__` (method, line 51) `def __divmod__(self, value)`
+  - `__rdivmod__` (method, line 52) `def __rdivmod__(self, value)`
+  - `__long__` (method, line 58) `def __long__(self)`
+  - `prettyIn` (method, line 304) `def prettyIn(self, value)`
+  - `prettyIn` (method, line 317) `def prettyIn(self, value)`
+  - `__str__` (method, line 389) `def __str__(self)`
+  - `__unicode__` (method, line 390) `def __unicode__(self)`
+  - `asOctets` (method, line 392) `def asOctets(self)`
+  - `asNumbers` (method, line 393) `def asNumbers(self)`
+  - `__str__` (method, line 398) `def __str__(self)`
+  - `__bytes__` (method, line 399) `def __bytes__(self)`
+  - `asOctets` (method, line 400) `def asOctets(self)`
+  - `asNumbers` (method, line 401) `def asNumbers(self)`
+  - `__div__` (method, line 587) `def __div__(self, value)`
+  - `__rdiv__` (method, line 588) `def __rdiv__(self, value)`
+  - `__truediv__` (method, line 590) `def __truediv__(self, value)`
+  - `__rtruediv__` (method, line 591) `def __rtruediv__(self, value)`
+  - `__divmod__` (method, line 592) `def __divmod__(self, value)`
+  - `__rdivmod__` (method, line 593) `def __rdivmod__(self, value)`
+  - `__long__` (method, line 597) `def __long__(self)`
+  - `__nonzero__` (method, line 615) `def __nonzero__(self)`
+  - `__bool__` (method, line 617) `def __bool__(self)`
+  - `__nonzero__` (method, line 932) `def __nonzero__(self)`
+  - `__bool__` (method, line 934) `def __bool__(self)`
+- Depends on: `pyasn1/codec/ber/__init__.py`, `pyasn1/compat/__init__.py`, `pyasn1/type/__init__.py`
+- Imported by: `ADPwdSpray.py`
+
+## pyasn1/type/useful.py
+- Layer: utility
+- Doc: ASN.1 "useful" types
+- Language: py
+- Symbols:
+  - `GeneralizedTime` (class, line 4) `class GeneralizedTime(VisibleString)`
+  - `UTCTime` (class, line 9) `class UTCTime(VisibleString)`
+- Depends on: `pyasn1/type/__init__.py`
+- Imported by: `ADPwdSpray.py`
