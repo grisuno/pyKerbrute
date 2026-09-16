@@ -1,0 +1,126 @@
+# Subsystem: ber
+
+## pyasn1/codec/ber/__init__.py
+- Layer: utility
+- Doc: This file is necessary to make this directory a package.
+- Language: py
+- Imported by: `pyasn1/codec/ber/decoder.py`, `pyasn1/codec/ber/encoder.py`, `pyasn1/codec/cer/decoder.py`, `pyasn1/codec/cer/encoder.py`, `pyasn1/type/univ.py`
+
+## pyasn1/codec/ber/decoder.py
+- Layer: utility
+- Doc: BER decoder
+- Language: py
+- Symbols:
+  - `AbstractDecoder` (class, line 7) `class AbstractDecoder`
+  - `AbstractSimpleDecoder` (class, line 17) `class AbstractSimpleDecoder(AbstractDecoder)`
+  - `AbstractConstructedDecoder` (class, line 29) `class AbstractConstructedDecoder(AbstractDecoder)`
+  - `EndOfOctetsDecoder` (class, line 39) `class EndOfOctetsDecoder(AbstractSimpleDecoder)`
+  - `ExplicitTagDecoder` (class, line 44) `class ExplicitTagDecoder(AbstractSimpleDecoder)`
+  - `IntegerDecoder` (class, line 75) `class IntegerDecoder(AbstractSimpleDecoder)`
+  - `BooleanDecoder` (class, line 112) `class BooleanDecoder(IntegerDecoder)`
+  - `BitStringDecoder` (class, line 117) `class BitStringDecoder(AbstractSimpleDecoder)`
+  - `OctetStringDecoder` (class, line 168) `class OctetStringDecoder(AbstractSimpleDecoder)`
+  - `NullDecoder` (class, line 201) `class NullDecoder(AbstractSimpleDecoder)`
+  - `ObjectIdentifierDecoder` (class, line 211) `class ObjectIdentifierDecoder(AbstractSimpleDecoder)`
+  - `RealDecoder` (class, line 249) `class RealDecoder(AbstractSimpleDecoder)`
+  - `SequenceDecoder` (class, line 301) `class SequenceDecoder(AbstractConstructedDecoder)`
+  - `SequenceOfDecoder` (class, line 356) `class SequenceOfDecoder(AbstractConstructedDecoder)`
+  - `SetDecoder` (class, line 394) `class SetDecoder(SequenceDecoder)`
+  - `SetOfDecoder` (class, line 406) `class SetOfDecoder(SequenceOfDecoder)`
+  - `ChoiceDecoder` (class, line 409) `class ChoiceDecoder(AbstractConstructedDecoder)`
+  - `AnyDecoder` (class, line 455) `class AnyDecoder(AbstractSimpleDecoder)`
+  - `UTF8StringDecoder` (class, line 500) `class UTF8StringDecoder(OctetStringDecoder)`
+  - `NumericStringDecoder` (class, line 502) `class NumericStringDecoder(OctetStringDecoder)`
+  - `PrintableStringDecoder` (class, line 504) `class PrintableStringDecoder(OctetStringDecoder)`
+  - `TeletexStringDecoder` (class, line 506) `class TeletexStringDecoder(OctetStringDecoder)`
+  - `VideotexStringDecoder` (class, line 508) `class VideotexStringDecoder(OctetStringDecoder)`
+  - `IA5StringDecoder` (class, line 510) `class IA5StringDecoder(OctetStringDecoder)`
+  - `GraphicStringDecoder` (class, line 512) `class GraphicStringDecoder(OctetStringDecoder)`
+  - `VisibleStringDecoder` (class, line 514) `class VisibleStringDecoder(OctetStringDecoder)`
+  - `GeneralStringDecoder` (class, line 516) `class GeneralStringDecoder(OctetStringDecoder)`
+  - `UniversalStringDecoder` (class, line 518) `class UniversalStringDecoder(OctetStringDecoder)`
+  - `BMPStringDecoder` (class, line 520) `class BMPStringDecoder(OctetStringDecoder)`
+  - `GeneralizedTimeDecoder` (class, line 524) `class GeneralizedTimeDecoder(OctetStringDecoder)`
+  - `UTCTimeDecoder` (class, line 526) `class UTCTimeDecoder(OctetStringDecoder)`
+  - `Decoder` (class, line 573) `class Decoder`
+  - `valueDecoder` (method, line 9) `def valueDecoder(self, fullSubstrate, substrate, asn1Spec, tagSet, length, state, decodeFun, substrateFun)`
+  - `indefLenValueDecoder` (method, line 13) `def indefLenValueDecoder(self, fullSubstrate, substrate, asn1Spec, tagSet, length, state, decodeFun, substrateFun)`
+  - `_createComponent` (method, line 19) `def _createComponent(self, asn1Spec, tagSet, value)`
+  - `_createComponent` (method, line 31) `def _createComponent(self, asn1Spec, tagSet, value)`
+  - `valueDecoder` (method, line 40) `def valueDecoder(self, fullSubstrate, substrate, asn1Spec, tagSet, length, state, decodeFun, substrateFun)`
+  - `valueDecoder` (method, line 47) `def valueDecoder(self, fullSubstrate, substrate, asn1Spec, tagSet, length, state, decodeFun, substrateFun)`
+  - `indefLenValueDecoder` (method, line 58) `def indefLenValueDecoder(self, fullSubstrate, substrate, asn1Spec, tagSet, length, state, decodeFun, substrateFun)`
+  - `valueDecoder` (method, line 95) `def valueDecoder(self, fullSubstrate, substrate, asn1Spec, tagSet, length, state, decodeFun, substrateFun)`
+  - `_createComponent` (method, line 114) `def _createComponent(self, asn1Spec, tagSet, value)`
+  - `valueDecoder` (method, line 120) `def valueDecoder(self, fullSubstrate, substrate, asn1Spec, tagSet, length, state, decodeFun, substrateFun)`
+  - `indefLenValueDecoder` (method, line 151) `def indefLenValueDecoder(self, fullSubstrate, substrate, asn1Spec, tagSet, length, state, decodeFun, substrateFun)`
+  - `valueDecoder` (method, line 171) `def valueDecoder(self, fullSubstrate, substrate, asn1Spec, tagSet, length, state, decodeFun, substrateFun)`
+  - `indefLenValueDecoder` (method, line 184) `def indefLenValueDecoder(self, fullSubstrate, substrate, asn1Spec, tagSet, length, state, decodeFun, substrateFun)`
+  - `valueDecoder` (method, line 203) `def valueDecoder(self, fullSubstrate, substrate, asn1Spec, tagSet, length, state, decodeFun, substrateFun)`
+  - `valueDecoder` (method, line 213) `def valueDecoder(self, fullSubstrate, substrate, asn1Spec, tagSet, length, state, decodeFun, substrateFun)`
+  - `valueDecoder` (method, line 251) `def valueDecoder(self, fullSubstrate, substrate, asn1Spec, tagSet, length, state, decodeFun, substrateFun)`
+  - `_getComponentTagMap` (method, line 303) `def _getComponentTagMap(self, r, idx)`
+  - `_getComponentPositionByType` (method, line 309) `def _getComponentPositionByType(self, r, t, idx)`
+  - `valueDecoder` (method, line 312) `def valueDecoder(self, fullSubstrate, substrate, asn1Spec, tagSet, length, state, decodeFun, substrateFun)`
+  - `indefLenValueDecoder` (method, line 331) `def indefLenValueDecoder(self, fullSubstrate, substrate, asn1Spec, tagSet, length, state, decodeFun, substrateFun)`
+  - `valueDecoder` (method, line 358) `def valueDecoder(self, fullSubstrate, substrate, asn1Spec, tagSet, length, state, decodeFun, substrateFun)`
+  - `indefLenValueDecoder` (method, line 373) `def indefLenValueDecoder(self, fullSubstrate, substrate, asn1Spec, tagSet, length, state, decodeFun, substrateFun)`
+  - `_getComponentTagMap` (method, line 396) `def _getComponentTagMap(self, r, idx)`
+  - `_getComponentPositionByType` (method, line 399) `def _getComponentPositionByType(self, r, t, idx)`
+  - `valueDecoder` (method, line 412) `def valueDecoder(self, fullSubstrate, substrate, asn1Spec, tagSet, length, state, decodeFun, substrateFun)`
+  - `indefLenValueDecoder` (method, line 433) `def indefLenValueDecoder(self, fullSubstrate, substrate, asn1Spec, tagSet, length, state, decodeFun, substrateFun)`
+  - `valueDecoder` (method, line 458) `def valueDecoder(self, fullSubstrate, substrate, asn1Spec, tagSet, length, state, decodeFun, substrateFun)`
+  - `indefLenValueDecoder` (method, line 471) `def indefLenValueDecoder(self, fullSubstrate, substrate, asn1Spec, tagSet, length, state, decodeFun, substrateFun)`
+  - `__init__` (method, line 577) `def __init__(self, tagMap, typeMap)`
+  - `__call__` (method, line 585) `def __call__(self, substrate, asn1Spec, tagSet, length, state, recursiveFlag, substrateFun)`
+- Depends on: `pyasn1/codec/ber/__init__.py`, `pyasn1/compat/octets.py`, `pyasn1/type/__init__.py`
+
+## pyasn1/codec/ber/encoder.py
+- Layer: utility
+- Doc: BER encoder
+- Language: py
+- Symbols:
+  - `Error` (class, line 7) `class Error(Exception)`
+  - `AbstractItemEncoder` (class, line 9) `class AbstractItemEncoder`
+  - `EndOfOctetsEncoder` (class, line 66) `class EndOfOctetsEncoder(AbstractItemEncoder)`
+  - `ExplicitlyTaggedItemEncoder` (class, line 70) `class ExplicitlyTaggedItemEncoder(AbstractItemEncoder)`
+  - `BooleanEncoder` (class, line 81) `class BooleanEncoder(AbstractItemEncoder)`
+  - `IntegerEncoder` (class, line 88) `class IntegerEncoder(AbstractItemEncoder)`
+  - `BitStringEncoder` (class, line 114) `class BitStringEncoder(AbstractItemEncoder)`
+  - `OctetStringEncoder` (class, line 135) `class OctetStringEncoder(AbstractItemEncoder)`
+  - `NullEncoder` (class, line 149) `class NullEncoder(AbstractItemEncoder)`
+  - `ObjectIdentifierEncoder` (class, line 154) `class ObjectIdentifierEncoder(AbstractItemEncoder)`
+  - `RealEncoder` (class, line 198) `class RealEncoder(AbstractItemEncoder)`
+  - `SequenceEncoder` (class, line 248) `class SequenceEncoder(AbstractItemEncoder)`
+  - `SequenceOfEncoder` (class, line 265) `class SequenceOfEncoder(AbstractItemEncoder)`
+  - `ChoiceEncoder` (class, line 276) `class ChoiceEncoder(AbstractItemEncoder)`
+  - `AnyEncoder` (class, line 280) `class AnyEncoder(OctetStringEncoder)`
+  - `Encoder` (class, line 325) `class Encoder`
+  - `encodeTag` (method, line 11) `def encodeTag(self, t, isConstructed)`
+  - `encodeLength` (method, line 26) `def encodeLength(self, length, defMode)`
+  - `encodeValue` (method, line 41) `def encodeValue(self, encodeFun, value, defMode, maxChunkSize)`
+  - `_encodeEndOfOctets` (method, line 44) `def _encodeEndOfOctets(self, encodeFun, defMode)`
+  - `encode` (method, line 50) `def encode(self, encodeFun, value, defMode, maxChunkSize)`
+  - `encodeValue` (method, line 67) `def encodeValue(self, encodeFun, value, defMode, maxChunkSize)`
+  - `encodeValue` (method, line 71) `def encodeValue(self, encodeFun, value, defMode, maxChunkSize)`
+  - `encodeValue` (method, line 85) `def encodeValue(self, encodeFun, value, defMode, maxChunkSize)`
+  - `encodeValue` (method, line 91) `def encodeValue(self, encodeFun, value, defMode, maxChunkSize)`
+  - `encodeValue` (method, line 115) `def encodeValue(self, encodeFun, value, defMode, maxChunkSize)`
+  - `encodeValue` (method, line 136) `def encodeValue(self, encodeFun, value, defMode, maxChunkSize)`
+  - `encodeValue` (method, line 151) `def encodeValue(self, encodeFun, value, defMode, maxChunkSize)`
+  - `encodeValue` (method, line 160) `def encodeValue(self, encodeFun, value, defMode, maxChunkSize)`
+  - `encodeValue` (method, line 200) `def encodeValue(self, encodeFun, value, defMode, maxChunkSize)`
+  - `encodeValue` (method, line 249) `def encodeValue(self, encodeFun, value, defMode, maxChunkSize)`
+  - `encodeValue` (method, line 266) `def encodeValue(self, encodeFun, value, defMode, maxChunkSize)`
+  - `encodeValue` (method, line 277) `def encodeValue(self, encodeFun, value, defMode, maxChunkSize)`
+  - `encodeValue` (method, line 281) `def encodeValue(self, encodeFun, value, defMode, maxChunkSize)`
+  - `__init__` (method, line 326) `def __init__(self, tagMap, typeMap)`
+  - `__call__` (method, line 330) `def __call__(self, value, defMode, maxChunkSize)`
+- Depends on: `pyasn1/codec/ber/__init__.py`, `pyasn1/compat/octets.py`, `pyasn1/type/__init__.py`
+
+## pyasn1/codec/ber/eoo.py
+- Layer: utility
+- Language: py
+- Symbols:
+  - `EndOfOctets` (class, line 3) `class EndOfOctets(AbstractSimpleAsn1Item)`
+- Depends on: `pyasn1/type/__init__.py`
