@@ -1,0 +1,120 @@
+# Concepts
+
+Nouns map atomically to file sets (EXTRACTED); verbs aggregate structural edges (INFERRED).
+
+- `pyasn1` | files=27 | mentions=27 | `pyasn1/__init__.py`, `pyasn1/codec/__init__.py`, `pyasn1/codec/ber/__init__.py`, `pyasn1/codec/ber/decoder.py`, `pyasn1/codec/ber/encoder.py`, `pyasn1/codec/ber/eoo.py`, `pyasn1/codec/cer/__init__.py`, `pyasn1/codec/cer/decoder.py`, `pyasn1/codec/cer/encoder.py`, `pyasn1/codec/der/__init__.py`
+- `type` | files=12 | mentions=33 | `pyasn1/codec/ber/decoder.py`, `pyasn1/type/__init__.py`, `pyasn1/type/base.py`, `pyasn1/type/char.py`, `pyasn1/type/constraint.py`, `pyasn1/type/error.py`, `pyasn1/type/namedtype.py`, `pyasn1/type/namedval.py`, `pyasn1/type/tag.py`, `pyasn1/type/tagmap.py`
+- `codec` | files=11 | mentions=11 | `pyasn1/codec/__init__.py`, `pyasn1/codec/ber/__init__.py`, `pyasn1/codec/ber/decoder.py`, `pyasn1/codec/ber/encoder.py`, `pyasn1/codec/ber/eoo.py`, `pyasn1/codec/cer/__init__.py`, `pyasn1/codec/cer/decoder.py`, `pyasn1/codec/cer/encoder.py`, `pyasn1/codec/der/__init__.py`, `pyasn1/codec/der/decoder.py`
+- `value` | files=9 | mentions=67 | `pyasn1/codec/ber/decoder.py`, `pyasn1/codec/ber/encoder.py`, `pyasn1/codec/cer/decoder.py`, `pyasn1/codec/cer/encoder.py`, `pyasn1/error.py`, `pyasn1/type/base.py`, `pyasn1/type/constraint.py`, `pyasn1/type/error.py`, `pyasn1/type/namedval.py`
+- `set` | files=9 | mentions=34 | `pyasn1/codec/ber/decoder.py`, `pyasn1/codec/cer/encoder.py`, `pyasn1/codec/der/encoder.py`, `pyasn1/debug.py`, `pyasn1/type/base.py`, `pyasn1/type/constraint.py`, `pyasn1/type/namedtype.py`, `pyasn1/type/tag.py`, `pyasn1/type/univ.py`
+- `get` | files=8 | mentions=47 | `pyasn1/codec/ber/decoder.py`, `pyasn1/type/base.py`, `pyasn1/type/constraint.py`, `pyasn1/type/namedtype.py`, `pyasn1/type/namedval.py`, `pyasn1/type/tag.py`, `pyasn1/type/tagmap.py`, `pyasn1/type/univ.py`
+- `tag` | files=7 | mentions=29 | `pyasn1/codec/ber/decoder.py`, `pyasn1/codec/ber/encoder.py`, `pyasn1/type/base.py`, `pyasn1/type/namedtype.py`, `pyasn1/type/tag.py`, `pyasn1/type/tagmap.py`, `pyasn1/type/univ.py`
+- `len` | files=7 | mentions=18 | `pyasn1/codec/ber/decoder.py`, `pyasn1/type/base.py`, `pyasn1/type/constraint.py`, `pyasn1/type/namedtype.py`, `pyasn1/type/namedval.py`, `pyasn1/type/tag.py`, `pyasn1/type/univ.py`
+- `getitem` | files=7 | mentions=14 | `pyasn1/type/base.py`, `pyasn1/type/constraint.py`, `pyasn1/type/namedtype.py`, `pyasn1/type/namedval.py`, `pyasn1/type/tag.py`, `pyasn1/type/tagmap.py`, `pyasn1/type/univ.py`
+- `asn` | files=7 | mentions=7 | `pyasn1/type/base.py`, `pyasn1/type/char.py`, `pyasn1/type/constraint.py`, `pyasn1/type/namedval.py`, `pyasn1/type/tag.py`, `pyasn1/type/univ.py`, `pyasn1/type/useful.py`
+- `string` | files=6 | mentions=32 | `ADPwdSpray.py`, `pyasn1/codec/ber/decoder.py`, `pyasn1/codec/ber/encoder.py`, `pyasn1/codec/cer/encoder.py`, `pyasn1/type/char.py`, `pyasn1/type/univ.py`
+- `map` | files=6 | mentions=16 | `pyasn1/codec/ber/decoder.py`, `pyasn1/type/base.py`, `pyasn1/type/constraint.py`, `pyasn1/type/namedtype.py`, `pyasn1/type/tagmap.py`, `pyasn1/type/univ.py`
+- `repr` | files=6 | mentions=9 | `pyasn1/type/base.py`, `pyasn1/type/constraint.py`, `pyasn1/type/namedtype.py`, `pyasn1/type/tag.py`, `pyasn1/type/tagmap.py`, `pyasn1/type/univ.py`
+- `types` | files=6 | mentions=7 | `pyasn1/type/base.py`, `pyasn1/type/char.py`, `pyasn1/type/namedtype.py`, `pyasn1/type/tag.py`, `pyasn1/type/univ.py`, `pyasn1/type/useful.py`
+- `call` | files=6 | mentions=6 | `pyasn1/codec/ber/decoder.py`, `pyasn1/codec/ber/encoder.py`, `pyasn1/codec/cer/encoder.py`, `pyasn1/codec/der/encoder.py`, `pyasn1/debug.py`, `pyasn1/type/constraint.py`
+- `directory` | files=6 | mentions=6 | `pyasn1/codec/__init__.py`, `pyasn1/codec/ber/__init__.py`, `pyasn1/codec/cer/__init__.py`, `pyasn1/codec/der/__init__.py`, `pyasn1/compat/__init__.py`, `pyasn1/type/__init__.py`
+- `file` | files=6 | mentions=6 | `pyasn1/codec/__init__.py`, `pyasn1/codec/ber/__init__.py`, `pyasn1/codec/cer/__init__.py`, `pyasn1/codec/der/__init__.py`, `pyasn1/compat/__init__.py`, `pyasn1/type/__init__.py`
+- `make` | files=6 | mentions=6 | `pyasn1/codec/__init__.py`, `pyasn1/codec/ber/__init__.py`, `pyasn1/codec/cer/__init__.py`, `pyasn1/codec/der/__init__.py`, `pyasn1/compat/__init__.py`, `pyasn1/type/__init__.py`
+- `necessary` | files=6 | mentions=6 | `pyasn1/codec/__init__.py`, `pyasn1/codec/ber/__init__.py`, `pyasn1/codec/cer/__init__.py`, `pyasn1/codec/der/__init__.py`, `pyasn1/compat/__init__.py`, `pyasn1/type/__init__.py`
+- `package` | files=6 | mentions=6 | `pyasn1/codec/__init__.py`, `pyasn1/codec/ber/__init__.py`, `pyasn1/codec/cer/__init__.py`, `pyasn1/codec/der/__init__.py`, `pyasn1/compat/__init__.py`, `pyasn1/type/__init__.py`
+- `octets` | files=5 | mentions=8 | `pyasn1/codec/ber/decoder.py`, `pyasn1/codec/ber/encoder.py`, `pyasn1/codec/ber/eoo.py`, `pyasn1/compat/octets.py`, `pyasn1/type/univ.py`
+- `boolean` | files=5 | mentions=5 | `pyasn1/codec/ber/decoder.py`, `pyasn1/codec/ber/encoder.py`, `pyasn1/codec/cer/decoder.py`, `pyasn1/codec/cer/encoder.py`, `pyasn1/type/univ.py`
+- `position` | files=4 | mentions=20 | `pyasn1/codec/ber/decoder.py`, `pyasn1/type/base.py`, `pyasn1/type/namedtype.py`, `pyasn1/type/univ.py`
+- `values` | files=4 | mentions=15 | `pyasn1/type/base.py`, `pyasn1/type/constraint.py`, `pyasn1/type/namedval.py`, `pyasn1/type/univ.py`
+- `clone` | files=4 | mentions=11 | `pyasn1/type/base.py`, `pyasn1/type/namedval.py`, `pyasn1/type/tagmap.py`, `pyasn1/type/univ.py`
+- `abstract` | files=4 | mentions=9 | `pyasn1/codec/ber/decoder.py`, `pyasn1/codec/ber/encoder.py`, `pyasn1/type/base.py`, `pyasn1/type/constraint.py`
+- `name` | files=4 | mentions=9 | `ADPwdSpray.py`, `pyasn1/type/namedtype.py`, `pyasn1/type/namedval.py`, `pyasn1/type/univ.py`
+- `str` | files=4 | mentions=9 | `pyasn1/debug.py`, `pyasn1/type/base.py`, `pyasn1/type/namedval.py`, `pyasn1/type/univ.py`
+- `add` | files=4 | mentions=8 | `pyasn1/type/constraint.py`, `pyasn1/type/namedval.py`, `pyasn1/type/tag.py`, `pyasn1/type/univ.py`
+- `radd` | files=4 | mentions=8 | `pyasn1/type/constraint.py`, `pyasn1/type/namedval.py`, `pyasn1/type/tag.py`, `pyasn1/type/univ.py`
+- `sequence` | files=4 | mentions=8 | `pyasn1/codec/ber/decoder.py`, `pyasn1/codec/ber/encoder.py`, `pyasn1/type/constraint.py`, `pyasn1/type/univ.py`
+- `ber` | files=4 | mentions=6 | `pyasn1/codec/ber/__init__.py`, `pyasn1/codec/ber/decoder.py`, `pyasn1/codec/ber/encoder.py`, `pyasn1/codec/ber/eoo.py`
+- `bool` | files=4 | mentions=6 | `pyasn1/type/base.py`, `pyasn1/type/constraint.py`, `pyasn1/type/namedtype.py`, `pyasn1/type/univ.py`
+- `nonzero` | files=4 | mentions=6 | `pyasn1/type/base.py`, `pyasn1/type/constraint.py`, `pyasn1/type/namedtype.py`, `pyasn1/type/univ.py`
+- `hash` | files=4 | mentions=5 | `ADPwdSpray.py`, `pyasn1/type/base.py`, `pyasn1/type/constraint.py`, `pyasn1/type/tag.py`
+- `object` | files=4 | mentions=5 | `pyasn1/codec/ber/decoder.py`, `pyasn1/codec/ber/encoder.py`, `pyasn1/type/constraint.py`, `pyasn1/type/univ.py`
+- `any` | files=4 | mentions=4 | `pyasn1/codec/ber/decoder.py`, `pyasn1/codec/ber/encoder.py`, `pyasn1/type/constraint.py`, `pyasn1/type/univ.py`
+- `bit` | files=4 | mentions=4 | `pyasn1/codec/ber/decoder.py`, `pyasn1/codec/ber/encoder.py`, `pyasn1/codec/cer/encoder.py`, `pyasn1/type/univ.py`
+- `crypto` | files=4 | mentions=4 | `_crypto/ARC4.py`, `_crypto/MD4.py`, `_crypto/MD5.py`, `install.sh`
+- `octet` | files=4 | mentions=4 | `pyasn1/codec/ber/decoder.py`, `pyasn1/codec/ber/encoder.py`, `pyasn1/codec/cer/encoder.py`, `pyasn1/type/univ.py`
+- `time` | files=4 | mentions=4 | `ADPwdSpray.py`, `pyasn1/codec/ber/decoder.py`, `pyasn1/type/constraint.py`, `pyasn1/type/useful.py`
+- `decoder` | files=3 | mentions=65 | `pyasn1/codec/ber/decoder.py`, `pyasn1/codec/cer/decoder.py`, `pyasn1/codec/der/decoder.py`
+- `component` | files=3 | mentions=36 | `pyasn1/codec/ber/decoder.py`, `pyasn1/type/base.py`, `pyasn1/type/univ.py`
+- `encoder` | files=3 | mentions=31 | `pyasn1/codec/ber/encoder.py`, `pyasn1/codec/cer/encoder.py`, `pyasn1/codec/der/encoder.py`
+- `constraint` | files=3 | mentions=17 | `pyasn1/error.py`, `pyasn1/type/constraint.py`, `pyasn1/type/error.py`
+- `error` | files=3 | mentions=9 | `pyasn1/codec/ber/encoder.py`, `pyasn1/error.py`, `pyasn1/type/error.py`
+- `subtype` | files=3 | mentions=9 | `pyasn1/type/base.py`, `pyasn1/type/constraint.py`, `pyasn1/type/univ.py`
+- `asn1` | files=3 | mentions=8 | `pyasn1/error.py`, `pyasn1/type/base.py`, `pyasn1/type/constraint.py`
+- `named` | files=3 | mentions=8 | `pyasn1/type/namedtype.py`, `pyasn1/type/namedval.py`, `pyasn1/type/univ.py`
+- `item` | files=3 | mentions=7 | `pyasn1/codec/ber/encoder.py`, `pyasn1/type/base.py`, `pyasn1/type/constraint.py`
+
+## Verb Edges
+
+- `string` --depends_on--> `pyasn1` (strength 1.00)
+- `pyasn1` --depends_on--> `directory` (strength 0.95)
+- `pyasn1` --depends_on--> `file` (strength 0.95)
+- `pyasn1` --depends_on--> `make` (strength 0.95)
+- `pyasn1` --depends_on--> `necessary` (strength 0.95)
+- `pyasn1` --depends_on--> `package` (strength 0.95)
+- `set` --depends_on--> `pyasn1` (strength 0.95)
+- `codec` --depends_on--> `pyasn1` (strength 0.91)
+- `value` --depends_on--> `pyasn1` (strength 0.91)
+- `boolean` --depends_on--> `pyasn1` (strength 0.86)
+- `type` --depends_on--> `pyasn1` (strength 0.86)
+- `tag` --depends_on--> `pyasn1` (strength 0.82)
+- `call` --depends_on--> `pyasn1` (strength 0.73)
+- `get` --depends_on--> `pyasn1` (strength 0.73)
+- `bit` --depends_on--> `pyasn1` (strength 0.68)
+- `len` --depends_on--> `pyasn1` (strength 0.68)
+- `octet` --depends_on--> `pyasn1` (strength 0.68)
+- `map` --depends_on--> `pyasn1` (strength 0.64)
+- `any` --depends_on--> `pyasn1` (strength 0.59)
+- `codec` --depends_on--> `directory` (strength 0.59)
+- `codec` --depends_on--> `file` (strength 0.59)
+- `codec` --depends_on--> `make` (strength 0.59)
+- `codec` --depends_on--> `necessary` (strength 0.59)
+- `codec` --depends_on--> `package` (strength 0.59)
+- `name` --depends_on--> `pyasn1` (strength 0.59)
+- `object` --depends_on--> `pyasn1` (strength 0.59)
+- `octets` --depends_on--> `pyasn1` (strength 0.59)
+- `pyasn1` --depends_on--> `type` (strength 0.59)
+- `sequence` --depends_on--> `pyasn1` (strength 0.59)
+- `getitem` --depends_on--> `pyasn1` (strength 0.55)
+- `position` --depends_on--> `pyasn1` (strength 0.55)
+- `set` --depends_on--> `directory` (strength 0.55)
+- `set` --depends_on--> `file` (strength 0.55)
+- `set` --depends_on--> `make` (strength 0.55)
+- `set` --depends_on--> `necessary` (strength 0.55)
+- `set` --depends_on--> `package` (strength 0.55)
+- `time` --depends_on--> `pyasn1` (strength 0.55)
+- `abstract` --depends_on--> `pyasn1` (strength 0.50)
+- `asn` --depends_on--> `pyasn1` (strength 0.50)
+- `boolean` --depends_on--> `directory` (strength 0.50)
+- `boolean` --depends_on--> `file` (strength 0.50)
+- `boolean` --depends_on--> `make` (strength 0.50)
+- `boolean` --depends_on--> `necessary` (strength 0.50)
+- `boolean` --depends_on--> `package` (strength 0.50)
+- `repr` --depends_on--> `pyasn1` (strength 0.50)
+- `types` --depends_on--> `pyasn1` (strength 0.50)
+- `component` --depends_on--> `pyasn1` (strength 0.45)
+- `decoder` --depends_on--> `pyasn1` (strength 0.45)
+- `hash` --depends_on--> `pyasn1` (strength 0.45)
+- `string` --depends_on--> `directory` (strength 0.45)
+
+## Dialectic
+
+- Thesis: `abstract` centralizes 4 files; Antithesis: `any` pulls 4 files with 3 shared (Jaccard 0.60); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `abstract` centralizes 4 files; Antithesis: `asn1` pulls 3 files with 2 shared (Jaccard 0.40); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `abstract` centralizes 4 files; Antithesis: `ber` pulls 4 files with 2 shared (Jaccard 0.33); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `abstract` centralizes 4 files; Antithesis: `bit` pulls 4 files with 2 shared (Jaccard 0.33); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `abstract` centralizes 4 files; Antithesis: `bool` pulls 4 files with 2 shared (Jaccard 0.33); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `abstract` centralizes 4 files; Antithesis: `call` pulls 6 files with 3 shared (Jaccard 0.43); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `abstract` centralizes 4 files; Antithesis: `component` pulls 3 files with 2 shared (Jaccard 0.40); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `abstract` centralizes 4 files; Antithesis: `get` pulls 8 files with 3 shared (Jaccard 0.33); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `abstract` centralizes 4 files; Antithesis: `hash` pulls 4 files with 2 shared (Jaccard 0.33); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
+- Thesis: `abstract` centralizes 4 files; Antithesis: `item` pulls 3 files with 3 shared (Jaccard 0.75); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
