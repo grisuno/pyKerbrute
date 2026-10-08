@@ -1,0 +1,2500 @@
+{
+  "concepts": [
+    {
+      "name": "pyasn1",
+      "files": [
+        "pyasn1/__init__.py",
+        "pyasn1/codec/__init__.py",
+        "pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py",
+        "pyasn1/codec/ber/encoder.py",
+        "pyasn1/codec/ber/eoo.py",
+        "pyasn1/codec/cer/__init__.py",
+        "pyasn1/codec/cer/decoder.py",
+        "pyasn1/codec/cer/encoder.py",
+        "pyasn1/codec/der/__init__.py",
+        "pyasn1/codec/der/decoder.py",
+        "pyasn1/codec/der/encoder.py",
+        "pyasn1/compat/__init__.py",
+        "pyasn1/compat/octets.py",
+        "pyasn1/debug.py",
+        "pyasn1/error.py",
+        "pyasn1/type/__init__.py",
+        "pyasn1/type/base.py",
+        "pyasn1/type/char.py",
+        "pyasn1/type/constraint.py",
+        "pyasn1/type/error.py",
+        "pyasn1/type/namedtype.py",
+        "pyasn1/type/namedval.py",
+        "pyasn1/type/tag.py",
+        "pyasn1/type/tagmap.py",
+        "pyasn1/type/univ.py",
+        "pyasn1/type/useful.py"
+      ],
+      "mentions": 27,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "type",
+      "files": [
+        "pyasn1/codec/ber/decoder.py",
+        "pyasn1/type/__init__.py",
+        "pyasn1/type/base.py",
+        "pyasn1/type/char.py",
+        "pyasn1/type/constraint.py",
+        "pyasn1/type/error.py",
+        "pyasn1/type/namedtype.py",
+        "pyasn1/type/namedval.py",
+        "pyasn1/type/tag.py",
+        "pyasn1/type/tagmap.py",
+        "pyasn1/type/univ.py",
+        "pyasn1/type/useful.py"
+      ],
+      "mentions": 33,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "codec",
+      "files": [
+        "pyasn1/codec/__init__.py",
+        "pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py",
+        "pyasn1/codec/ber/encoder.py",
+        "pyasn1/codec/ber/eoo.py",
+        "pyasn1/codec/cer/__init__.py",
+        "pyasn1/codec/cer/decoder.py",
+        "pyasn1/codec/cer/encoder.py",
+        "pyasn1/codec/der/__init__.py",
+        "pyasn1/codec/der/decoder.py",
+        "pyasn1/codec/der/encoder.py"
+      ],
+      "mentions": 11,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "value",
+      "files": [
+        "pyasn1/codec/ber/decoder.py",
+        "pyasn1/codec/ber/encoder.py",
+        "pyasn1/codec/cer/decoder.py",
+        "pyasn1/codec/cer/encoder.py",
+        "pyasn1/error.py",
+        "pyasn1/type/base.py",
+        "pyasn1/type/constraint.py",
+        "pyasn1/type/error.py",
+        "pyasn1/type/namedval.py"
+      ],
+      "mentions": 67,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "set",
+      "files": [
+        "pyasn1/codec/ber/decoder.py",
+        "pyasn1/codec/cer/encoder.py",
+        "pyasn1/codec/der/encoder.py",
+        "pyasn1/debug.py",
+        "pyasn1/type/base.py",
+        "pyasn1/type/constraint.py",
+        "pyasn1/type/namedtype.py",
+        "pyasn1/type/tag.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 34,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "get",
+      "files": [
+        "pyasn1/codec/ber/decoder.py",
+        "pyasn1/type/base.py",
+        "pyasn1/type/constraint.py",
+        "pyasn1/type/namedtype.py",
+        "pyasn1/type/namedval.py",
+        "pyasn1/type/tag.py",
+        "pyasn1/type/tagmap.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 47,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "tag",
+      "files": [
+        "pyasn1/codec/ber/decoder.py",
+        "pyasn1/codec/ber/encoder.py",
+        "pyasn1/type/base.py",
+        "pyasn1/type/namedtype.py",
+        "pyasn1/type/tag.py",
+        "pyasn1/type/tagmap.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 29,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "len",
+      "files": [
+        "pyasn1/codec/ber/decoder.py",
+        "pyasn1/type/base.py",
+        "pyasn1/type/constraint.py",
+        "pyasn1/type/namedtype.py",
+        "pyasn1/type/namedval.py",
+        "pyasn1/type/tag.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 18,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "getitem",
+      "files": [
+        "pyasn1/type/base.py",
+        "pyasn1/type/constraint.py",
+        "pyasn1/type/namedtype.py",
+        "pyasn1/type/namedval.py",
+        "pyasn1/type/tag.py",
+        "pyasn1/type/tagmap.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 14,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "asn",
+      "files": [
+        "pyasn1/type/base.py",
+        "pyasn1/type/char.py",
+        "pyasn1/type/constraint.py",
+        "pyasn1/type/namedval.py",
+        "pyasn1/type/tag.py",
+        "pyasn1/type/univ.py",
+        "pyasn1/type/useful.py"
+      ],
+      "mentions": 7,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "string",
+      "files": [
+        "ADPwdSpray.py",
+        "pyasn1/codec/ber/decoder.py",
+        "pyasn1/codec/ber/encoder.py",
+        "pyasn1/codec/cer/encoder.py",
+        "pyasn1/type/char.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 32,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "map",
+      "files": [
+        "pyasn1/codec/ber/decoder.py",
+        "pyasn1/type/base.py",
+        "pyasn1/type/constraint.py",
+        "pyasn1/type/namedtype.py",
+        "pyasn1/type/tagmap.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 16,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "repr",
+      "files": [
+        "pyasn1/type/base.py",
+        "pyasn1/type/constraint.py",
+        "pyasn1/type/namedtype.py",
+        "pyasn1/type/tag.py",
+        "pyasn1/type/tagmap.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "types",
+      "files": [
+        "pyasn1/type/base.py",
+        "pyasn1/type/char.py",
+        "pyasn1/type/namedtype.py",
+        "pyasn1/type/tag.py",
+        "pyasn1/type/univ.py",
+        "pyasn1/type/useful.py"
+      ],
+      "mentions": 7,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "call",
+      "files": [
+        "pyasn1/codec/ber/decoder.py",
+        "pyasn1/codec/ber/encoder.py",
+        "pyasn1/codec/cer/encoder.py",
+        "pyasn1/codec/der/encoder.py",
+        "pyasn1/debug.py",
+        "pyasn1/type/constraint.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "directory",
+      "files": [
+        "pyasn1/codec/__init__.py",
+        "pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/__init__.py",
+        "pyasn1/codec/der/__init__.py",
+        "pyasn1/compat/__init__.py",
+        "pyasn1/type/__init__.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "file",
+      "files": [
+        "pyasn1/codec/__init__.py",
+        "pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/__init__.py",
+        "pyasn1/codec/der/__init__.py",
+        "pyasn1/compat/__init__.py",
+        "pyasn1/type/__init__.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "make",
+      "files": [
+        "pyasn1/codec/__init__.py",
+        "pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/__init__.py",
+        "pyasn1/codec/der/__init__.py",
+        "pyasn1/compat/__init__.py",
+        "pyasn1/type/__init__.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "necessary",
+      "files": [
+        "pyasn1/codec/__init__.py",
+        "pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/__init__.py",
+        "pyasn1/codec/der/__init__.py",
+        "pyasn1/compat/__init__.py",
+        "pyasn1/type/__init__.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "package",
+      "files": [
+        "pyasn1/codec/__init__.py",
+        "pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/__init__.py",
+        "pyasn1/codec/der/__init__.py",
+        "pyasn1/compat/__init__.py",
+        "pyasn1/type/__init__.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "octets",
+      "files": [
+        "pyasn1/codec/ber/decoder.py",
+        "pyasn1/codec/ber/encoder.py",
+        "pyasn1/codec/ber/eoo.py",
+        "pyasn1/compat/octets.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "boolean",
+      "files": [
+        "pyasn1/codec/ber/decoder.py",
+        "pyasn1/codec/ber/encoder.py",
+        "pyasn1/codec/cer/decoder.py",
+        "pyasn1/codec/cer/encoder.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 5,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "position",
+      "files": [
+        "pyasn1/codec/ber/decoder.py",
+        "pyasn1/type/base.py",
+        "pyasn1/type/namedtype.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 20,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "values",
+      "files": [
+        "pyasn1/type/base.py",
+        "pyasn1/type/constraint.py",
+        "pyasn1/type/namedval.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 15,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "clone",
+      "files": [
+        "pyasn1/type/base.py",
+        "pyasn1/type/namedval.py",
+        "pyasn1/type/tagmap.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 11,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "abstract",
+      "files": [
+        "pyasn1/codec/ber/decoder.py",
+        "pyasn1/codec/ber/encoder.py",
+        "pyasn1/type/base.py",
+        "pyasn1/type/constraint.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "name",
+      "files": [
+        "ADPwdSpray.py",
+        "pyasn1/type/namedtype.py",
+        "pyasn1/type/namedval.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "str",
+      "files": [
+        "pyasn1/debug.py",
+        "pyasn1/type/base.py",
+        "pyasn1/type/namedval.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "add",
+      "files": [
+        "pyasn1/type/constraint.py",
+        "pyasn1/type/namedval.py",
+        "pyasn1/type/tag.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "radd",
+      "files": [
+        "pyasn1/type/constraint.py",
+        "pyasn1/type/namedval.py",
+        "pyasn1/type/tag.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "sequence",
+      "files": [
+        "pyasn1/codec/ber/decoder.py",
+        "pyasn1/codec/ber/encoder.py",
+        "pyasn1/type/constraint.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "ber",
+      "files": [
+        "pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py",
+        "pyasn1/codec/ber/encoder.py",
+        "pyasn1/codec/ber/eoo.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "bool",
+      "files": [
+        "pyasn1/type/base.py",
+        "pyasn1/type/constraint.py",
+        "pyasn1/type/namedtype.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "nonzero",
+      "files": [
+        "pyasn1/type/base.py",
+        "pyasn1/type/constraint.py",
+        "pyasn1/type/namedtype.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "hash",
+      "files": [
+        "ADPwdSpray.py",
+        "pyasn1/type/base.py",
+        "pyasn1/type/constraint.py",
+        "pyasn1/type/tag.py"
+      ],
+      "mentions": 5,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "object",
+      "files": [
+        "pyasn1/codec/ber/decoder.py",
+        "pyasn1/codec/ber/encoder.py",
+        "pyasn1/type/constraint.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 5,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "any",
+      "files": [
+        "pyasn1/codec/ber/decoder.py",
+        "pyasn1/codec/ber/encoder.py",
+        "pyasn1/type/constraint.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "bit",
+      "files": [
+        "pyasn1/codec/ber/decoder.py",
+        "pyasn1/codec/ber/encoder.py",
+        "pyasn1/codec/cer/encoder.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "crypto",
+      "files": [
+        "_crypto/ARC4.py",
+        "_crypto/MD4.py",
+        "_crypto/MD5.py",
+        "install.sh"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "octet",
+      "files": [
+        "pyasn1/codec/ber/decoder.py",
+        "pyasn1/codec/ber/encoder.py",
+        "pyasn1/codec/cer/encoder.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "time",
+      "files": [
+        "ADPwdSpray.py",
+        "pyasn1/codec/ber/decoder.py",
+        "pyasn1/type/constraint.py",
+        "pyasn1/type/useful.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "decoder",
+      "files": [
+        "pyasn1/codec/ber/decoder.py",
+        "pyasn1/codec/cer/decoder.py",
+        "pyasn1/codec/der/decoder.py"
+      ],
+      "mentions": 65,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "component",
+      "files": [
+        "pyasn1/codec/ber/decoder.py",
+        "pyasn1/type/base.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 36,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "encoder",
+      "files": [
+        "pyasn1/codec/ber/encoder.py",
+        "pyasn1/codec/cer/encoder.py",
+        "pyasn1/codec/der/encoder.py"
+      ],
+      "mentions": 31,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "constraint",
+      "files": [
+        "pyasn1/error.py",
+        "pyasn1/type/constraint.py",
+        "pyasn1/type/error.py"
+      ],
+      "mentions": 17,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "error",
+      "files": [
+        "pyasn1/codec/ber/encoder.py",
+        "pyasn1/error.py",
+        "pyasn1/type/error.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "subtype",
+      "files": [
+        "pyasn1/type/base.py",
+        "pyasn1/type/constraint.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "asn1",
+      "files": [
+        "pyasn1/error.py",
+        "pyasn1/type/base.py",
+        "pyasn1/type/constraint.py"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "named",
+      "files": [
+        "pyasn1/type/namedtype.py",
+        "pyasn1/type/namedval.py",
+        "pyasn1/type/univ.py"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "item",
+      "files": [
+        "pyasn1/codec/ber/encoder.py",
+        "pyasn1/type/base.py",
+        "pyasn1/type/constraint.py"
+      ],
+      "mentions": 7,
+      "confidence": "EXTRACTED"
+    }
+  ],
+  "relations": [
+    {
+      "source": "string",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "ADPwdSpray.py->pyasn1/codec/der/encoder.py",
+        "ADPwdSpray.py->pyasn1/type/char.py",
+        "ADPwdSpray.py->pyasn1/type/namedtype.py",
+        "ADPwdSpray.py->pyasn1/type/tag.py",
+        "ADPwdSpray.py->pyasn1/type/univ.py",
+        "ADPwdSpray.py->pyasn1/type/useful.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "pyasn1",
+      "target": "directory",
+      "verb": "depends_on",
+      "strength": 0.95,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/eoo.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/der/decoder.py->pyasn1/codec/cer/__init__.py"
+      ]
+    },
+    {
+      "source": "pyasn1",
+      "target": "file",
+      "verb": "depends_on",
+      "strength": 0.95,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/eoo.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/der/decoder.py->pyasn1/codec/cer/__init__.py"
+      ]
+    },
+    {
+      "source": "pyasn1",
+      "target": "make",
+      "verb": "depends_on",
+      "strength": 0.95,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/eoo.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/der/decoder.py->pyasn1/codec/cer/__init__.py"
+      ]
+    },
+    {
+      "source": "pyasn1",
+      "target": "necessary",
+      "verb": "depends_on",
+      "strength": 0.95,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/eoo.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/der/decoder.py->pyasn1/codec/cer/__init__.py"
+      ]
+    },
+    {
+      "source": "pyasn1",
+      "target": "package",
+      "verb": "depends_on",
+      "strength": 0.95,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/eoo.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/der/decoder.py->pyasn1/codec/cer/__init__.py"
+      ]
+    },
+    {
+      "source": "set",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.95,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/der/encoder.py->pyasn1/codec/cer/__init__.py",
+        "pyasn1/codec/der/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/debug.py->pyasn1/__init__.py"
+      ]
+    },
+    {
+      "source": "codec",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.91,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/eoo.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/__init__.py"
+      ]
+    },
+    {
+      "source": "value",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.91,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/codec/ber/__init__.py"
+      ]
+    },
+    {
+      "source": "boolean",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.86,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/codec/ber/__init__.py"
+      ]
+    },
+    {
+      "source": "type",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.86,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/char.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/error.py->pyasn1/error.py",
+        "pyasn1/type/namedtype.py->pyasn1/__init__.py"
+      ]
+    },
+    {
+      "source": "tag",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.82,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "call",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.73,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/compat/octets.py"
+      ]
+    },
+    {
+      "source": "get",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.73,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedval.py->pyasn1/__init__.py"
+      ]
+    },
+    {
+      "source": "bit",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.68,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/compat/octets.py"
+      ]
+    },
+    {
+      "source": "len",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.68,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedval.py->pyasn1/__init__.py"
+      ]
+    },
+    {
+      "source": "octet",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.68,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/compat/octets.py"
+      ]
+    },
+    {
+      "source": "map",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.64,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/tagmap.py->pyasn1/__init__.py"
+      ]
+    },
+    {
+      "source": "any",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.59,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/__init__.py"
+      ]
+    },
+    {
+      "source": "codec",
+      "target": "directory",
+      "verb": "depends_on",
+      "strength": 0.59,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/eoo.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/der/decoder.py->pyasn1/codec/cer/__init__.py"
+      ]
+    },
+    {
+      "source": "codec",
+      "target": "file",
+      "verb": "depends_on",
+      "strength": 0.59,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/eoo.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/der/decoder.py->pyasn1/codec/cer/__init__.py"
+      ]
+    },
+    {
+      "source": "codec",
+      "target": "make",
+      "verb": "depends_on",
+      "strength": 0.59,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/eoo.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/der/decoder.py->pyasn1/codec/cer/__init__.py"
+      ]
+    },
+    {
+      "source": "codec",
+      "target": "necessary",
+      "verb": "depends_on",
+      "strength": 0.59,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/eoo.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/der/decoder.py->pyasn1/codec/cer/__init__.py"
+      ]
+    },
+    {
+      "source": "codec",
+      "target": "package",
+      "verb": "depends_on",
+      "strength": 0.59,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/eoo.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/der/decoder.py->pyasn1/codec/cer/__init__.py"
+      ]
+    },
+    {
+      "source": "name",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.59,
+      "confidence": "INFERRED",
+      "evidence": [
+        "ADPwdSpray.py->pyasn1/codec/der/encoder.py",
+        "ADPwdSpray.py->pyasn1/type/char.py",
+        "ADPwdSpray.py->pyasn1/type/namedtype.py",
+        "ADPwdSpray.py->pyasn1/type/tag.py",
+        "ADPwdSpray.py->pyasn1/type/univ.py",
+        "ADPwdSpray.py->pyasn1/type/useful.py",
+        "pyasn1/type/namedtype.py->pyasn1/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedval.py->pyasn1/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/__init__.py"
+      ]
+    },
+    {
+      "source": "object",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.59,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/__init__.py"
+      ]
+    },
+    {
+      "source": "octets",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.59,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/eoo.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/__init__.py"
+      ]
+    },
+    {
+      "source": "pyasn1",
+      "target": "type",
+      "verb": "depends_on",
+      "strength": 0.59,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/eoo.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/der/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/der/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/char.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "sequence",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.59,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/__init__.py"
+      ]
+    },
+    {
+      "source": "getitem",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.55,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/type/base.py->pyasn1/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedval.py->pyasn1/__init__.py",
+        "pyasn1/type/tag.py->pyasn1/__init__.py",
+        "pyasn1/type/tagmap.py->pyasn1/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py"
+      ]
+    },
+    {
+      "source": "position",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.55,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py"
+      ]
+    },
+    {
+      "source": "set",
+      "target": "directory",
+      "verb": "depends_on",
+      "strength": 0.55,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/der/encoder.py->pyasn1/codec/cer/__init__.py",
+        "pyasn1/codec/der/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py"
+      ]
+    },
+    {
+      "source": "set",
+      "target": "file",
+      "verb": "depends_on",
+      "strength": 0.55,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/der/encoder.py->pyasn1/codec/cer/__init__.py",
+        "pyasn1/codec/der/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py"
+      ]
+    },
+    {
+      "source": "set",
+      "target": "make",
+      "verb": "depends_on",
+      "strength": 0.55,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/der/encoder.py->pyasn1/codec/cer/__init__.py",
+        "pyasn1/codec/der/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py"
+      ]
+    },
+    {
+      "source": "set",
+      "target": "necessary",
+      "verb": "depends_on",
+      "strength": 0.55,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/der/encoder.py->pyasn1/codec/cer/__init__.py",
+        "pyasn1/codec/der/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py"
+      ]
+    },
+    {
+      "source": "set",
+      "target": "package",
+      "verb": "depends_on",
+      "strength": 0.55,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/der/encoder.py->pyasn1/codec/cer/__init__.py",
+        "pyasn1/codec/der/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py"
+      ]
+    },
+    {
+      "source": "time",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.55,
+      "confidence": "INFERRED",
+      "evidence": [
+        "ADPwdSpray.py->pyasn1/codec/der/encoder.py",
+        "ADPwdSpray.py->pyasn1/type/char.py",
+        "ADPwdSpray.py->pyasn1/type/namedtype.py",
+        "ADPwdSpray.py->pyasn1/type/tag.py",
+        "ADPwdSpray.py->pyasn1/type/univ.py",
+        "ADPwdSpray.py->pyasn1/type/useful.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "abstract",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "asn",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/type/base.py->pyasn1/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/char.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedval.py->pyasn1/__init__.py",
+        "pyasn1/type/tag.py->pyasn1/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "boolean",
+      "target": "directory",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py"
+      ]
+    },
+    {
+      "source": "boolean",
+      "target": "file",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py"
+      ]
+    },
+    {
+      "source": "boolean",
+      "target": "make",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py"
+      ]
+    },
+    {
+      "source": "boolean",
+      "target": "necessary",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py"
+      ]
+    },
+    {
+      "source": "boolean",
+      "target": "package",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py"
+      ]
+    },
+    {
+      "source": "repr",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/type/base.py->pyasn1/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/tag.py->pyasn1/__init__.py",
+        "pyasn1/type/tagmap.py->pyasn1/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py"
+      ]
+    },
+    {
+      "source": "types",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/type/base.py->pyasn1/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/char.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/tag.py->pyasn1/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "component",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.45,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "decoder",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.45,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/der/decoder.py->pyasn1/codec/cer/__init__.py",
+        "pyasn1/codec/der/decoder.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "hash",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.45,
+      "confidence": "INFERRED",
+      "evidence": [
+        "ADPwdSpray.py->pyasn1/codec/der/encoder.py",
+        "ADPwdSpray.py->pyasn1/type/char.py",
+        "ADPwdSpray.py->pyasn1/type/namedtype.py",
+        "ADPwdSpray.py->pyasn1/type/tag.py",
+        "ADPwdSpray.py->pyasn1/type/univ.py",
+        "ADPwdSpray.py->pyasn1/type/useful.py",
+        "pyasn1/type/base.py->pyasn1/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/tag.py->pyasn1/__init__.py"
+      ]
+    },
+    {
+      "source": "string",
+      "target": "directory",
+      "verb": "depends_on",
+      "strength": 0.45,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/char.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "string",
+      "target": "file",
+      "verb": "depends_on",
+      "strength": 0.45,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/char.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "string",
+      "target": "make",
+      "verb": "depends_on",
+      "strength": 0.45,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/char.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "string",
+      "target": "necessary",
+      "verb": "depends_on",
+      "strength": 0.45,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/char.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "string",
+      "target": "package",
+      "verb": "depends_on",
+      "strength": 0.45,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/char.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "string",
+      "target": "type",
+      "verb": "depends_on",
+      "strength": 0.45,
+      "confidence": "INFERRED",
+      "evidence": [
+        "ADPwdSpray.py->pyasn1/type/char.py",
+        "ADPwdSpray.py->pyasn1/type/namedtype.py",
+        "ADPwdSpray.py->pyasn1/type/tag.py",
+        "ADPwdSpray.py->pyasn1/type/univ.py",
+        "ADPwdSpray.py->pyasn1/type/useful.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/char.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "type",
+      "target": "directory",
+      "verb": "depends_on",
+      "strength": 0.45,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/char.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py",
+        "pyasn1/type/useful.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "type",
+      "target": "file",
+      "verb": "depends_on",
+      "strength": 0.45,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/char.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py",
+        "pyasn1/type/useful.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "type",
+      "target": "make",
+      "verb": "depends_on",
+      "strength": 0.45,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/char.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py",
+        "pyasn1/type/useful.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "type",
+      "target": "necessary",
+      "verb": "depends_on",
+      "strength": 0.45,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/char.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py",
+        "pyasn1/type/useful.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "type",
+      "target": "package",
+      "verb": "depends_on",
+      "strength": 0.45,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/char.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py",
+        "pyasn1/type/useful.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "value",
+      "target": "directory",
+      "verb": "depends_on",
+      "strength": 0.45,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "value",
+      "target": "file",
+      "verb": "depends_on",
+      "strength": 0.45,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "value",
+      "target": "make",
+      "verb": "depends_on",
+      "strength": 0.45,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "value",
+      "target": "necessary",
+      "verb": "depends_on",
+      "strength": 0.45,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "value",
+      "target": "package",
+      "verb": "depends_on",
+      "strength": 0.45,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "ber",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.41,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/eoo.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "bit",
+      "target": "directory",
+      "verb": "depends_on",
+      "strength": 0.41,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "bit",
+      "target": "file",
+      "verb": "depends_on",
+      "strength": 0.41,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "bit",
+      "target": "make",
+      "verb": "depends_on",
+      "strength": 0.41,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "bit",
+      "target": "necessary",
+      "verb": "depends_on",
+      "strength": 0.41,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "bit",
+      "target": "package",
+      "verb": "depends_on",
+      "strength": 0.41,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "bool",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.41,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/type/base.py->pyasn1/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "call",
+      "target": "directory",
+      "verb": "depends_on",
+      "strength": 0.41,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/der/encoder.py->pyasn1/codec/cer/__init__.py",
+        "pyasn1/codec/der/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "call",
+      "target": "file",
+      "verb": "depends_on",
+      "strength": 0.41,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/der/encoder.py->pyasn1/codec/cer/__init__.py",
+        "pyasn1/codec/der/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "call",
+      "target": "make",
+      "verb": "depends_on",
+      "strength": 0.41,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/der/encoder.py->pyasn1/codec/cer/__init__.py",
+        "pyasn1/codec/der/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "call",
+      "target": "necessary",
+      "verb": "depends_on",
+      "strength": 0.41,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/der/encoder.py->pyasn1/codec/cer/__init__.py",
+        "pyasn1/codec/der/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "call",
+      "target": "package",
+      "verb": "depends_on",
+      "strength": 0.41,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/der/encoder.py->pyasn1/codec/cer/__init__.py",
+        "pyasn1/codec/der/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "encoder",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.41,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/encoder.py->pyasn1/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/compat/octets.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/der/encoder.py->pyasn1/codec/cer/__init__.py",
+        "pyasn1/codec/der/encoder.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "nonzero",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.41,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/type/base.py->pyasn1/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "octet",
+      "target": "directory",
+      "verb": "depends_on",
+      "strength": 0.41,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "octet",
+      "target": "file",
+      "verb": "depends_on",
+      "strength": 0.41,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "octet",
+      "target": "make",
+      "verb": "depends_on",
+      "strength": 0.41,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "octet",
+      "target": "necessary",
+      "verb": "depends_on",
+      "strength": 0.41,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "octet",
+      "target": "package",
+      "verb": "depends_on",
+      "strength": 0.41,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/cer/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "str",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.41,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/debug.py->pyasn1/__init__.py",
+        "pyasn1/debug.py->pyasn1/compat/octets.py",
+        "pyasn1/type/base.py->pyasn1/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedval.py->pyasn1/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "tag",
+      "target": "directory",
+      "verb": "depends_on",
+      "strength": 0.41,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "tag",
+      "target": "file",
+      "verb": "depends_on",
+      "strength": 0.41,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "tag",
+      "target": "make",
+      "verb": "depends_on",
+      "strength": 0.41,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "tag",
+      "target": "necessary",
+      "verb": "depends_on",
+      "strength": 0.41,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "tag",
+      "target": "package",
+      "verb": "depends_on",
+      "strength": 0.41,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "any",
+      "target": "directory",
+      "verb": "depends_on",
+      "strength": 0.36,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "any",
+      "target": "file",
+      "verb": "depends_on",
+      "strength": 0.36,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "any",
+      "target": "make",
+      "verb": "depends_on",
+      "strength": 0.36,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "any",
+      "target": "necessary",
+      "verb": "depends_on",
+      "strength": 0.36,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "any",
+      "target": "package",
+      "verb": "depends_on",
+      "strength": 0.36,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/encoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "clone",
+      "target": "pyasn1",
+      "verb": "depends_on",
+      "strength": 0.36,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/type/base.py->pyasn1/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedval.py->pyasn1/__init__.py",
+        "pyasn1/type/tagmap.py->pyasn1/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "get",
+      "target": "directory",
+      "verb": "depends_on",
+      "strength": 0.36,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "get",
+      "target": "file",
+      "verb": "depends_on",
+      "strength": 0.36,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "get",
+      "target": "make",
+      "verb": "depends_on",
+      "strength": 0.36,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    },
+    {
+      "source": "get",
+      "target": "necessary",
+      "verb": "depends_on",
+      "strength": 0.36,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pyasn1/codec/ber/decoder.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/codec/ber/decoder.py->pyasn1/type/__init__.py",
+        "pyasn1/type/base.py->pyasn1/type/__init__.py",
+        "pyasn1/type/constraint.py->pyasn1/type/__init__.py",
+        "pyasn1/type/namedtype.py->pyasn1/type/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/codec/ber/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/compat/__init__.py",
+        "pyasn1/type/univ.py->pyasn1/type/__init__.py"
+      ]
+    }
+  ],
+  "dialectic": [
+    "Thesis: `abstract` centralizes 4 files; Antithesis: `any` pulls 4 files with 3 shared (Jaccard 0.60); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `abstract` centralizes 4 files; Antithesis: `asn1` pulls 3 files with 2 shared (Jaccard 0.40); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `abstract` centralizes 4 files; Antithesis: `ber` pulls 4 files with 2 shared (Jaccard 0.33); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `abstract` centralizes 4 files; Antithesis: `bit` pulls 4 files with 2 shared (Jaccard 0.33); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `abstract` centralizes 4 files; Antithesis: `bool` pulls 4 files with 2 shared (Jaccard 0.33); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `abstract` centralizes 4 files; Antithesis: `call` pulls 6 files with 3 shared (Jaccard 0.43); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `abstract` centralizes 4 files; Antithesis: `component` pulls 3 files with 2 shared (Jaccard 0.40); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `abstract` centralizes 4 files; Antithesis: `get` pulls 8 files with 3 shared (Jaccard 0.33); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `abstract` centralizes 4 files; Antithesis: `hash` pulls 4 files with 2 shared (Jaccard 0.33); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `abstract` centralizes 4 files; Antithesis: `item` pulls 3 files with 3 shared (Jaccard 0.75); Synthesis: should they merge, split by layer, or keep `bridges` explicit?"
+  ]
+}

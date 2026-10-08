@@ -1,0 +1,160 @@
+{
+  "tool": "readmenator",
+  "schema_version": 2,
+  "generated_at": "2026-10-08T01:54:22Z",
+  "project_root": ".",
+  "project_name": "readmenator_pyKerbrute_gt2r51e0",
+  "git_commit": "f7522bdacf8be3c5be47d1de0299d5c793bb1946",
+  "git_branch": "master",
+  "source_fingerprint": "68e2ab70bb9e8ccf03bb3120cf094afded628c68d5bf61c9ce8d425e2318415f",
+  "freshness_check": "readmenator . fresh  # exit 0 = docs match sources, exit 1 = run: readmenator . --rebuild",
+  "files": 33,
+  "symbols": 548,
+  "imports": 65,
+  "calls": 933,
+  "inherits": 119,
+  "resolved_imports": 44,
+  "security_findings": 0,
+  "languages": {
+    "py": 32,
+    "sh": 1
+  },
+  "subsystems": {
+    "_crypto": 3,
+    "ber": 4,
+    "cer": 3,
+    "compat": 2,
+    "der": 3,
+    "misc": 1,
+    "pyasn1": 3,
+    "root": 3,
+    "type": 11
+  },
+  "entrypoints": [],
+  "start_here": "INDEX.md",
+  "read_order": [
+    "readmenator-wiki/index.md  # big picture, communities, god nodes",
+    "readmenator-agent/INDEX.md  # file -> purpose -> used-by count",
+    "readmenator-agent/GOTCHAS.md  # blast radius before editing",
+    "readmenator-agent/KB_<subsystem>.md  # only the subsystem you touch"
+  ],
+  "workflow": [
+    "ls *.md readmenator-*/  # orient: docs first, ignore build noise",
+    "grep -n '<keyword>' INDEX*.md SYMBOLS*.md",
+    "cat KB_<subsystem>.md",
+    "grep -n '<file>' ARCHITECTURE*.md API*.md"
+  ],
+  "documents": [
+    {
+      "path": "API.md",
+      "lines": 249,
+      "approx_tokens": 6035
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "lines": 61,
+      "approx_tokens": 715
+    },
+    {
+      "path": "CONCEPTS.md",
+      "lines": 120,
+      "approx_tokens": 3288
+    },
+    {
+      "path": "GOTCHAS.md",
+      "lines": 50,
+      "approx_tokens": 667
+    },
+    {
+      "path": "INDEX.md",
+      "lines": 37,
+      "approx_tokens": 581
+    },
+    {
+      "path": "KB__crypto.md",
+      "lines": 23,
+      "approx_tokens": 141
+    },
+    {
+      "path": "KB_ber.md",
+      "lines": 126,
+      "approx_tokens": 2751
+    },
+    {
+      "path": "KB_cer.md",
+      "lines": 34,
+      "approx_tokens": 446
+    },
+    {
+      "path": "KB_compat.md",
+      "lines": 12,
+      "approx_tokens": 100
+    },
+    {
+      "path": "KB_der.md",
+      "lines": 24,
+      "approx_tokens": 197
+    },
+    {
+      "path": "KB_misc.md",
+      "lines": 6,
+      "approx_tokens": 35
+    },
+    {
+      "path": "KB_pyasn1.md",
+      "lines": 34,
+      "approx_tokens": 373
+    },
+    {
+      "path": "KB_root.md",
+      "lines": 50,
+      "approx_tokens": 701
+    },
+    {
+      "path": "KB_type.md",
+      "lines": 455,
+      "approx_tokens": 6856
+    },
+    {
+      "path": "SECURITY.md",
+      "lines": 3,
+      "approx_tokens": 10
+    },
+    {
+      "path": "SYMBOLS.md",
+      "lines": 500,
+      "approx_tokens": 11841
+    },
+    {
+      "path": "SYMBOLS_p2.md",
+      "lines": 61,
+      "approx_tokens": 1395
+    },
+    {
+      "path": "recipes/add-function.md",
+      "lines": 9,
+      "approx_tokens": 99
+    },
+    {
+      "path": "recipes/change-impact.md",
+      "lines": 9,
+      "approx_tokens": 109
+    },
+    {
+      "path": "recipes/fix-cycle.md",
+      "lines": 6,
+      "approx_tokens": 65
+    },
+    {
+      "path": "recipes/fix-security.md",
+      "lines": 6,
+      "approx_tokens": 69
+    },
+    {
+      "path": "recipes/reduce-complexity.md",
+      "lines": 9,
+      "approx_tokens": 77
+    }
+  ],
+  "regenerate": "readmenator . --rebuild"
+}
