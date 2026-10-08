@@ -1,14 +1,14 @@
 # Subsystem: ber
 
 ## pyasn1/codec/ber/__init__.py
-- Doc: This file is necessary to make this directory a package.
 - Layer: utility
+- Doc: This file is necessary to make this directory a package.
 - Language: py
 - Imported by: `pyasn1/codec/ber/decoder.py`, `pyasn1/codec/ber/encoder.py`, `pyasn1/codec/cer/decoder.py`, `pyasn1/codec/cer/encoder.py`, `pyasn1/type/univ.py`
 
 ## pyasn1/codec/ber/decoder.py
-- Doc: BER decoder
 - Layer: utility
+- Doc: BER decoder
 - Language: py
 - Symbols:
   - `AbstractDecoder` (class, line 7) `class AbstractDecoder`
@@ -73,11 +73,11 @@
   - `indefLenValueDecoder` (method, line 471) `def indefLenValueDecoder(self, fullSubstrate, substrate, asn1Spec, tagSet, length, state, decodeFun, substrateFun)`
   - `__init__` (method, line 577) `def __init__(self, tagMap, typeMap)`
   - `__call__` (method, line 585) `def __call__(self, substrate, asn1Spec, tagSet, length, state, recursiveFlag, substrateFun)`
-- Depends on: `pyasn1/__init__.py`, `pyasn1/codec/ber/__init__.py`, `pyasn1/compat/octets.py`, `pyasn1/type/__init__.py`
+- Depends on: `pyasn1/codec/ber/__init__.py`, `pyasn1/compat/octets.py`, `pyasn1/type/__init__.py`
 
 ## pyasn1/codec/ber/encoder.py
-- Doc: BER encoder
 - Layer: utility
+- Doc: BER encoder
 - Language: py
 - Symbols:
   - `Error` (class, line 7) `class Error(Exception)`
@@ -116,7 +116,7 @@
   - `encodeValue` (method, line 281) `def encodeValue(self, encodeFun, value, defMode, maxChunkSize)`
   - `__init__` (method, line 326) `def __init__(self, tagMap, typeMap)`
   - `__call__` (method, line 330) `def __call__(self, value, defMode, maxChunkSize)`
-- Depends on: `pyasn1/__init__.py`, `pyasn1/codec/ber/__init__.py`, `pyasn1/compat/octets.py`, `pyasn1/type/__init__.py`
+- Depends on: `pyasn1/codec/ber/__init__.py`, `pyasn1/compat/octets.py`, `pyasn1/type/__init__.py`
 
 ## pyasn1/codec/ber/eoo.py
 - Layer: utility

@@ -1,8 +1,8 @@
 # Subsystem: compat
 
 ## pyasn1/compat/__init__.py
-- Doc: This file is necessary to make this directory a package.
 - Layer: utility
+- Doc: This file is necessary to make this directory a package.
 - Language: py
 - Imported by: `pyasn1/type/univ.py`
 

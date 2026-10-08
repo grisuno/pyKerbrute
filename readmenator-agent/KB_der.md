@@ -1,19 +1,19 @@
 # Subsystem: der
 
 ## pyasn1/codec/der/__init__.py
-- Doc: This file is necessary to make this directory a package.
 - Layer: utility
+- Doc: This file is necessary to make this directory a package.
 - Language: py
 
 ## pyasn1/codec/der/decoder.py
-- Doc: DER decoder
 - Layer: utility
+- Doc: DER decoder
 - Language: py
 - Depends on: `pyasn1/codec/cer/__init__.py`, `pyasn1/type/__init__.py`
 
 ## pyasn1/codec/der/encoder.py
-- Doc: DER encoder
 - Layer: utility
+- Doc: DER encoder
 - Language: py
 - Symbols:
   - `SetOfEncoder` (class, line 5) `class SetOfEncoder(SetOfEncoder)`

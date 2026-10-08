@@ -3,7 +3,6 @@
 ## pyasn1/__init__.py
 - Layer: utility
 - Language: py
-- Imported by: `pyasn1/codec/ber/decoder.py`, `pyasn1/codec/ber/encoder.py`, `pyasn1/codec/cer/decoder.py`, `pyasn1/debug.py`, `pyasn1/type/base.py`, `pyasn1/type/namedtype.py`, `pyasn1/type/namedval.py`, `pyasn1/type/tag.py`, `pyasn1/type/tagmap.py`, `pyasn1/type/univ.py`
 
 ## pyasn1/debug.py
 - Layer: utility
@@ -22,7 +21,7 @@
   - `__str__` (method, line 57) `def __str__(self)`
   - `push` (method, line 59) `def push(self, token)`
   - `pop` (method, line 62) `def pop(self)`
-- Depends on: `pyasn1/__init__.py`, `pyasn1/compat/octets.py`
+- Depends on: `pyasn1/compat/octets.py`
 
 ## pyasn1/error.py
 - Layer: utility

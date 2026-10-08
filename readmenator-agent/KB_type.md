@@ -1,14 +1,14 @@
 # Subsystem: type
 
 ## pyasn1/type/__init__.py
-- Doc: This file is necessary to make this directory a package.
 - Layer: utility
+- Doc: This file is necessary to make this directory a package.
 - Language: py
 - Imported by: `pyasn1/codec/ber/decoder.py`, `pyasn1/codec/ber/encoder.py`, `pyasn1/codec/ber/eoo.py`, `pyasn1/codec/cer/decoder.py`, `pyasn1/codec/cer/encoder.py`, `pyasn1/codec/der/decoder.py`, `pyasn1/codec/der/encoder.py`, `pyasn1/type/base.py`, `pyasn1/type/char.py`, `pyasn1/type/constraint.py`, `pyasn1/type/namedtype.py`, `pyasn1/type/univ.py`, `pyasn1/type/useful.py`
 
 ## pyasn1/type/base.py
-- Doc: Base classes for ASN.1 types
 - Layer: utility
+- Doc: Base classes for ASN.1 types
 - Language: py
 - Symbols:
   - `Asn1Item` (class, line 6) `class Asn1Item`
@@ -68,11 +68,11 @@
   - `__bool__` (method, line 90) `def __bool__(self)`
   - `__nonzero__` (method, line 186) `def __nonzero__(self)`
   - `__bool__` (method, line 188) `def __bool__(self)`
-- Depends on: `pyasn1/__init__.py`, `pyasn1/type/__init__.py`
+- Depends on: `pyasn1/type/__init__.py`
 
 ## pyasn1/type/char.py
-- Doc: ASN.1 "character string" types
 - Layer: utility
+- Doc: ASN.1 "character string" types
 - Language: py
 - Symbols:
   - `UTF8String` (class, line 4) `class UTF8String(OctetString)`
@@ -90,8 +90,8 @@
 - Imported by: `ADPwdSpray.py`
 
 ## pyasn1/type/constraint.py
-- Doc: ASN.1 subtype constraints classes.
 - Layer: utility
+- Doc: ASN.1 subtype constraints classes.  Constraints are relatively rare, but every ASN1 object is doing checks all the time 
 - Language: py
 - Symbols:
   - `AbstractConstraint` (class, line 17) `class AbstractConstraint`
@@ -150,8 +150,8 @@
 - Depends on: `pyasn1/error.py`
 
 ## pyasn1/type/namedtype.py
-- Doc: NamedType specification for constructed types
 - Layer: utility
+- Doc: NamedType specification for constructed types
 - Language: py
 - Symbols:
   - `NamedType` (class, line 6) `class NamedType`
@@ -178,12 +178,12 @@
   - `getTagMap` (method, line 124) `def getTagMap(self, uniq)`
   - `__nonzero__` (method, line 44) `def __nonzero__(self)`
   - `__bool__` (method, line 46) `def __bool__(self)`
-- Depends on: `pyasn1/__init__.py`, `pyasn1/type/__init__.py`
+- Depends on: `pyasn1/type/__init__.py`
 - Imported by: `ADPwdSpray.py`
 
 ## pyasn1/type/namedval.py
-- Doc: ASN.1 named integers
 - Layer: utility
+- Doc: ASN.1 named integers
 - Language: py
 - Symbols:
   - `NamedValues` (class, line 6) `class NamedValues`
@@ -196,11 +196,10 @@
   - `__add__` (method, line 38) `def __add__(self, namedValues)`
   - `__radd__` (method, line 40) `def __radd__(self, namedValues)`
   - `clone` (method, line 43) `def clone(self)`
-- Depends on: `pyasn1/__init__.py`
 
 ## pyasn1/type/tag.py
-- Doc: ASN.1 types tags
 - Layer: utility
+- Doc: ASN.1 types tags
 - Language: py
 - Symbols:
   - `Tag` (class, line 17) `class Tag`
@@ -236,7 +235,6 @@
   - `__hash__` (method, line 110) `def __hash__(self)`
   - `__len__` (method, line 111) `def __len__(self)`
   - `isSuperTagSetOf` (method, line 112) `def isSuperTagSetOf(self, tagSet)`
-- Depends on: `pyasn1/__init__.py`
 - Imported by: `ADPwdSpray.py`
 
 ## pyasn1/type/tagmap.py
@@ -252,11 +250,10 @@
   - `getPosMap` (method, line 50) `def getPosMap(self)`
   - `getNegMap` (method, line 51) `def getNegMap(self)`
   - `getDef` (method, line 52) `def getDef(self)`
-- Depends on: `pyasn1/__init__.py`
 
 ## pyasn1/type/univ.py
-- Doc: ASN.1 "universal" data types
 - Layer: utility
+- Doc: ASN.1 "universal" data types
 - Language: py
 - Symbols:
   - `Integer` (class, line 10) `class Integer(AbstractSimpleAsn1Item)`
@@ -441,12 +438,12 @@
   - `__bool__` (method, line 617) `def __bool__(self)`
   - `__nonzero__` (method, line 932) `def __nonzero__(self)`
   - `__bool__` (method, line 934) `def __bool__(self)`
-- Depends on: `pyasn1/__init__.py`, `pyasn1/codec/ber/__init__.py`, `pyasn1/compat/__init__.py`, `pyasn1/type/__init__.py`
+- Depends on: `pyasn1/codec/ber/__init__.py`, `pyasn1/compat/__init__.py`, `pyasn1/type/__init__.py`
 - Imported by: `ADPwdSpray.py`
 
 ## pyasn1/type/useful.py
-- Doc: ASN.1 "useful" types
 - Layer: utility
+- Doc: ASN.1 "useful" types
 - Language: py
 - Symbols:
   - `GeneralizedTime` (class, line 4) `class GeneralizedTime(VisibleString)`
